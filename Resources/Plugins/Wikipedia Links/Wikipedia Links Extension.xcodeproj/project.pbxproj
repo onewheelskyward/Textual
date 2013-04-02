@@ -7,22 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C34F94416E23BF8009F573D /* TPIWikipediaLinkParser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C34F94216E23BF8009F573D /* TPIWikipediaLinkParser.xib */; };
 		4C393AAD121AE217004C66F4 /* TPIWikipediaLinkParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C393AAC121AE217004C66F4 /* TPIWikipediaLinkParser.m */; };
 		4C393B2E121AE5D5004C66F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C393B2D121AE5D5004C66F4 /* Cocoa.framework */; };
-		4CE6B68916E25B42003AD1A3 /* BasicLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CE6B68816E25B42003AD1A3 /* BasicLanguage.strings */; };
+		5D014B00170BA0C1009CB22C /* TPIWikipediaLinkParser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014AFE170BA0C1009CB22C /* TPIWikipediaLinkParser.xib */; };
+		5D014B03170BA0CC009CB22C /* BasicLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D014B01170BA0CC009CB22C /* BasicLanguage.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
-		4C34F94316E23BF8009F573D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/TPIWikipediaLinkParser.xib; sourceTree = "<group>"; };
 		4C393AAB121AE217004C66F4 /* TPIWikipediaLinkParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPIWikipediaLinkParser.h; sourceTree = "<group>"; };
 		4C393AAC121AE217004C66F4 /* TPIWikipediaLinkParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPIWikipediaLinkParser.m; sourceTree = "<group>"; };
 		4C393B2D121AE5D5004C66F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4C588BAE16E34BF1007EFF6D /* Code Signing Identity.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Code Signing Identity.xcconfig"; sourceTree = "<group>"; };
 		4C69189916E3276C00BDE3A8 /* Shared Extension Configuration.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Shared Extension Configuration.xcconfig"; sourceTree = "<group>"; };
 		4C69189B16E3276C00BDE3A8 /* Shared Release Configuration.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Shared Release Configuration.xcconfig"; sourceTree = "<group>"; };
-		4CE6B68816E25B42003AD1A3 /* BasicLanguage.strings */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; fileEncoding = 4; path = BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014AFF170BA0C1009CB22C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Localization/en.lproj/TPIWikipediaLinkParser.xib; sourceTree = "<group>"; };
+		5D014B02170BA0CC009CB22C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localization/en.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014B04170BA0D7009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Localization/de.lproj/TPIWikipediaLinkParser.xib; sourceTree = "<group>"; };
+		5D014B05170BA0DD009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localization/de.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014B06170BA0E7009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Localization/fr.lproj/TPIWikipediaLinkParser.xib; sourceTree = "<group>"; };
+		5D014B07170BA0EE009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Localization/fr.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014B08170BA0FB009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Localization/nb.lproj/TPIWikipediaLinkParser.xib; sourceTree = "<group>"; };
+		5D014B09170BA102009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = Localization/nb.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014B0A170BA10B009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Localization/pt.lproj/TPIWikipediaLinkParser.xib; sourceTree = "<group>"; };
+		5D014B0B170BA113009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = Localization/pt.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
 		8D576316048677EA00EA77CD /* WikipediaLinkParser.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikipediaLinkParser.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,7 +98,7 @@
 		4C34F94116E23BC9009F573D /* User Interface */ = {
 			isa = PBXGroup;
 			children = (
-				4C34F94216E23BF8009F573D /* TPIWikipediaLinkParser.xib */,
+				5D014AFE170BA0C1009CB22C /* TPIWikipediaLinkParser.xib */,
 			);
 			name = "User Interface";
 			sourceTree = "<group>";
@@ -117,7 +125,7 @@
 		4CE6B68B16E25B70003AD1A3 /* Language Files */ = {
 			isa = PBXGroup;
 			children = (
-				4CE6B68816E25B42003AD1A3 /* BasicLanguage.strings */,
+				5D014B01170BA0CC009CB22C /* BasicLanguage.strings */,
 			);
 			name = "Language Files";
 			sourceTree = "<group>";
@@ -160,6 +168,11 @@
 				Japanese,
 				French,
 				German,
+				en,
+				de,
+				fr,
+				nb,
+				pt,
 			);
 			mainGroup = 089C166AFE841209C02AAC07 /* BragSpam */;
 			projectDirPath = "";
@@ -175,8 +188,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C34F94416E23BF8009F573D /* TPIWikipediaLinkParser.xib in Resources */,
-				4CE6B68916E25B42003AD1A3 /* BasicLanguage.strings in Resources */,
+				5D014B00170BA0C1009CB22C /* TPIWikipediaLinkParser.xib in Resources */,
+				5D014B03170BA0CC009CB22C /* BasicLanguage.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,12 +207,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4C34F94216E23BF8009F573D /* TPIWikipediaLinkParser.xib */ = {
+		5D014AFE170BA0C1009CB22C /* TPIWikipediaLinkParser.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4C34F94316E23BF8009F573D /* English */,
+				5D014AFF170BA0C1009CB22C /* en */,
+				5D014B04170BA0D7009CB22C /* de */,
+				5D014B06170BA0E7009CB22C /* fr */,
+				5D014B08170BA0FB009CB22C /* nb */,
+				5D014B0A170BA10B009CB22C /* pt */,
 			);
 			name = TPIWikipediaLinkParser.xib;
+			sourceTree = "<group>";
+		};
+		5D014B01170BA0CC009CB22C /* BasicLanguage.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D014B02170BA0CC009CB22C /* en */,
+				5D014B05170BA0DD009CB22C /* de */,
+				5D014B07170BA0EE009CB22C /* fr */,
+				5D014B09170BA102009CB22C /* nb */,
+				5D014B0B170BA113009CB22C /* pt */,
+			);
+			name = BasicLanguage.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

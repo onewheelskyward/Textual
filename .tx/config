@@ -177,9 +177,15 @@ source_lang = en
 type = STRINGS
 
 [textual.WikipediaLinks]
-source_file = Resources/Plugins/Wikipedia Links/BasicLanguage.strings
-file_filter = Resources/Plugins/Wikipedia Links/<lang>.lproj/BasicLanguage.strings
-trans.no = Resources/Plugins/Wikipedia Links/nb.lproj/BasicLanguage.strings
+source_file = Resources/Plugins/Wikipedia Links/Localization/en.lproj/BasicLanguage.strings
+file_filter = Resources/Plugins/Wikipedia Links/Localization/<lang>.lproj/BasicLanguage.strings
+trans.no = Resources/Plugins/Wikipedia Links/Localization/nb.lproj/BasicLanguage.strings
 source_lang = en
 type = STRINGS
 
+[textual.TPIWikipediaLinkParser]
+source_file = Resources/Plugins/Wikipedia Links/Localization/en.lproj/TPIWikipediaLinkParser.strings
+file_filter = Resources/Plugins/Wikipedia Links/Localization/<lang>.lproj/TPIWikipediaLinkParser.strings
+trans.no = Resources/Plugins/Wikipedia Links/Localization/nb.lproj/TPIWikipediaLinkParser.strings
+source_lang = en
+type = STRINGS
