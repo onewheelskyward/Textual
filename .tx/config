@@ -156,9 +156,9 @@ source_lang = en
 type = STRINGS
 
 [textual.SpammerParadise]
-source_file = Resources/Plugins/Spammer Paradise/BasicLanguage.strings
-file_filter = Resources/Plugins/Spammer Paradise/<lang>.lproj/BasicLanguage.strings
-trans.no = Resources/Plugins/Spammer Paradise/nb.lproj/BasicLanguage.strings
+source_file = Resources/Plugins/Spammer Paradise/Localization/en.lproj/BasicLanguage.strings
+file_filter = Resources/Plugins/Spammer Paradise/Localization/<lang>.lproj/BasicLanguage.strings
+trans.no = Resources/Plugins/Spammer Paradise/Localization/nb.lproj/BasicLanguage.strings
 source_lang = en
 type = STRINGS
 
