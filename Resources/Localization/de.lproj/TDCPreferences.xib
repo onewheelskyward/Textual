@@ -412,7 +412,7 @@
 											</object>
 											<object class="NSMenuItem" id="352053725">
 												<reference key="NSMenu" ref="323851367"/>
-												<string key="NSTitle"> Command Scope</string>
+												<string key="NSTitle">Befehlsumfang</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="93802364"/>
@@ -457,7 +457,7 @@
 											</object>
 											<object class="NSMenuItem" id="376864740">
 												<reference key="NSMenu" ref="323851367"/>
-												<string key="NSTitle"> Experimental Settings</string>
+												<string key="NSTitle">Experimentelle Einstellungen</string>
 												<string key="NSKeyEquiv"/>
 												<int key="NSMnemonicLoc">2147483647</int>
 												<reference key="NSOnImage" ref="93802364"/>
@@ -659,7 +659,7 @@
 						<object class="NSButtonCell" key="NSCell" id="363124541">
 							<int key="NSCellFlags">67108864</int>
 							<int key="NSCellFlags2">134348800</int>
-							<string key="NSContents">Set as Default IRC Client</string>
+							<string key="NSContents">Setzen als Standard IRC Client</string>
 							<object class="NSFont" key="NSSupport" id="26">
 								<string key="NSName">LucidaGrande</string>
 								<double key="NSSize">11</double>
@@ -685,7 +685,7 @@
 						<object class="NSButtonCell" key="NSCell" id="406139984">
 							<int key="NSCellFlags">67108864</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Reply to CTCP Requests.</string>
+							<string key="NSContents">Antworten auf CTCP Anfragen.</string>
 							<object class="NSFont" key="NSSupport" id="90392730">
 								<string key="NSName">LucidaGrande</string>
 								<double key="NSSize">12</double>
@@ -1555,7 +1555,7 @@
 									</object>
 									<object class="NSMenuItem" id="569569731">
 										<reference key="NSMenu" ref="1065260936"/>
-										<string key="NSTitle">Regular Expression (PCRE)</string>
+										<string key="NSTitle">Reguläre Ausdrücke (PCRE)</string>
 										<string key="NSKeyEquiv"/>
 										<int key="NSKeyEquivModMask">1048576</int>
 										<int key="NSMnemonicLoc">2147483647</int>
@@ -1636,7 +1636,7 @@
 						<object class="NSButtonCell" key="NSCell" id="445013210">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Speak using system voice.</string>
+							<string key="NSContents">Sprechen mit System Stimme.</string>
 							<reference key="NSSupport" ref="325354301"/>
 							<string key="NSCellIdentifier">_NS:239</string>
 							<reference key="NSControlView" ref="722565402"/>
@@ -2390,7 +2390,7 @@
 											<object class="NSButtonCell" key="NSCell" id="402456444">
 												<int key="NSCellFlags">-2080374784</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Show channel join, part, and quit activity.</string>
+												<string key="NSContents">Zeige Channel join, part und quit Aktivität.</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="139762286"/>
 												<int key="NSButtonFlags">1211912448</int>
@@ -3181,7 +3181,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 											<object class="NSButtonCell" key="NSCell" id="586580558">
 												<int key="NSCellFlags">-2080374784</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Remember old messages when closing Textual.</string>
+												<string key="NSContents">Behalte alte Nachrichten wenn Textual geschlossen wird.</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="365790970"/>
 												<int key="NSButtonFlags">1211912448</int>
@@ -3326,7 +3326,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 									</object>
 									<object class="NSMenuItem" id="158620426">
 										<reference key="NSMenu" ref="698686499"/>
-										<string key="NSTitle">Other…</string>
+										<string key="NSTitle">Andere...</string>
 										<string key="NSKeyEquiv"/>
 										<int key="NSKeyEquivModMask">1048576</int>
 										<int key="NSMnemonicLoc">2147483647</int>
@@ -3358,7 +3358,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="674166854">
 							<int key="NSCellFlags">68157504</int>
 							<int key="NSCellFlags2">272761856</int>
-							<string key="NSContents">to folder:</string>
+							<string key="NSContents">zum Ordner:</string>
 							<reference key="NSSupport" ref="90392730"/>
 							<string key="NSCellIdentifier">_NS:1560</string>
 							<reference key="NSControlView" ref="709317454"/>
@@ -3410,7 +3410,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 						<object class="NSButtonCell" key="NSCell" id="158466361">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">134217728</int>
-							<string key="NSContents">Install Extras</string>
+							<string key="NSContents">Installiere Extras.</string>
 							<reference key="NSSupport" ref="90392730"/>
 							<reference key="NSControlView" ref="255154040"/>
 							<int key="NSButtonFlags">-2038153216</int>
@@ -3658,7 +3658,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="248525642">
 							<int key="NSCellFlags">68157504</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">(Includes Ban Length)</string>
+							<string key="NSContents">(beinhaltet Ban Länge)</string>
 							<reference key="NSSupport" ref="756028785"/>
 							<reference key="NSControlView" ref="381752735"/>
 							<reference key="NSBackgroundColor" ref="326222776"/>
@@ -3676,7 +3676,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="772197794">
 							<int key="NSCellFlags">68157504</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">(Includes Ban Length)</string>
+							<string key="NSContents">(beinhaltet Ban Länge)</string>
 							<reference key="NSSupport" ref="756028785"/>
 							<reference key="NSControlView" ref="506157284"/>
 							<reference key="NSBackgroundColor" ref="326222776"/>
@@ -3943,7 +3943,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="126378761">
 							<int key="NSCellFlags">68157504</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">1,600</string>
+							<string key="NSContents">1.600</string>
 							<reference key="NSSupport" ref="756028785"/>
 							<reference key="NSControlView" ref="264447747"/>
 							<reference key="NSBackgroundColor" ref="326222776"/>
@@ -3961,7 +3961,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="997849626">
 							<int key="NSCellFlags">68157504</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">1,200</string>
+							<string key="NSContents">1.200</string>
 							<reference key="NSSupport" ref="756028785"/>
 							<reference key="NSControlView" ref="796287216"/>
 							<reference key="NSBackgroundColor" ref="326222776"/>
@@ -4014,7 +4014,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="5976753">
 							<int key="NSCellFlags">68157504</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">2,000</string>
+							<string key="NSContents">2.000</string>
 							<reference key="NSSupport" ref="756028785"/>
 							<reference key="NSControlView" ref="553897651"/>
 							<reference key="NSBackgroundColor" ref="326222776"/>
@@ -4050,7 +4050,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="992545825">
 							<int key="NSCellFlags">68157504</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">WHO Command Maximum Channel Size:</string>
+							<string key="NSContents">Maximale Channel-Größe bei WHO Befehl:</string>
 							<reference key="NSSupport" ref="90392730"/>
 							<reference key="NSControlView" ref="816281759"/>
 							<reference key="NSBackgroundColor" ref="326222776"/>
@@ -4917,7 +4917,7 @@ wGw</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="100674738">
 							<int key="NSCellFlags">69206017</int>
 							<int key="NSCellFlags2">272629760</int>
-							<string key="NSContents">** Restart required to apply changes.</string>
+							<string key="NSContents">** Neustart erforderlich um Änderungen zu übernehmen.</string>
 							<reference key="NSSupport" ref="24"/>
 							<reference key="NSControlView" ref="948562989"/>
 							<reference key="NSBackgroundColor" ref="326222776"/>
@@ -4936,7 +4936,7 @@ wGw</bytes>
 						<object class="NSButtonCell" key="NSCell" id="229302757">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Enable layer backed table views.</string>
+							<string key="NSContents">Aktiviere Schichtbasierte Tabellenansichten.</string>
 							<reference key="NSSupport" ref="325354301"/>
 							<string key="NSCellIdentifier">_NS:239</string>
 							<reference key="NSControlView" ref="476115212"/>
@@ -4961,7 +4961,7 @@ wGw</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="207798930">
 							<int key="NSCellFlags">69206017</int>
 							<int key="NSCellFlags2">272629760</int>
-							<string key="NSContents">** Restart required to apply changes.</string>
+							<string key="NSContents">** Neustart erforderlich um Änderungen zu übernehmen.</string>
 							<reference key="NSSupport" ref="24"/>
 							<reference key="NSControlView" ref="318989872"/>
 							<reference key="NSBackgroundColor" ref="326222776"/>
@@ -4980,7 +4980,7 @@ wGw</bytes>
 						<object class="NSButtonCell" key="NSCell" id="492444629">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Do not force minimum window size.</string>
+							<string key="NSContents">Erzwinge nicht die maximale Fenstergröße.</string>
 							<reference key="NSSupport" ref="325354301"/>
 							<string key="NSCellIdentifier">_NS:239</string>
 							<reference key="NSControlView" ref="511545720"/>
@@ -5006,7 +5006,7 @@ wGw</bytes>
 						<object class="NSButtonCell" key="NSCell" id="359897009">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Force birthday icon onto dock.</string>
+							<string key="NSContents">Erzwinge Geburtstag Symbol auf Dock.</string>
 							<reference key="NSSupport" ref="325354301"/>
 							<string key="NSCellIdentifier">_NS:239</string>
 							<reference key="NSControlView" ref="989637458"/>
@@ -5032,7 +5032,7 @@ wGw</bytes>
 						<object class="NSButtonCell" key="NSCell" id="321040719">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Toggle away status on display sleep.</string>
+							<string key="NSContents">Umschalten von Abwesenheit-Status beim Ruhemodus des Bildschirmes.</string>
 							<reference key="NSSupport" ref="325354301"/>
 							<string key="NSCellIdentifier">_NS:239</string>
 							<reference key="NSControlView" ref="800030108"/>
@@ -5058,7 +5058,7 @@ wGw</bytes>
 						<object class="NSButtonCell" key="NSCell" id="390602410">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Darken input text field colors.</string>
+							<string key="NSContents">Verdunkle Farben des Eingabefeldes.</string>
 							<reference key="NSSupport" ref="325354301"/>
 							<string key="NSCellIdentifier">_NS:239</string>
 							<reference key="NSControlView" ref="734798055"/>
@@ -5152,7 +5152,7 @@ wGw</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="305987601">
 							<int key="NSCellFlags">68157504</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">Fake CTCP Version:</string>
+							<string key="NSContents">Fälsche CTCP Version:</string>
 							<reference key="NSSupport" ref="90392730"/>
 							<reference key="NSControlView" ref="779481008"/>
 							<reference key="NSBackgroundColor" ref="326222776"/>
@@ -5171,7 +5171,7 @@ wGw</bytes>
 						<object class="NSButtonCell" key="NSCell" id="278054435">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Base nickname color hashing off a UUID.</string>
+							<string key="NSContents">Nick-Namen Farb-Hashing basierend auf einer UUID.</string>
 							<reference key="NSSupport" ref="325354301"/>
 							<string key="NSCellIdentifier">_NS:239</string>
 							<reference key="NSControlView" ref="672335610"/>
@@ -5196,7 +5196,7 @@ wGw</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="806262702">
 							<int key="NSCellFlags">69206017</int>
 							<int key="NSCellFlags2">138412032</int>
-							<string key="NSContents">The following settings are for testing purposes only and are considered experiemtnal. Use at your own risk. There is no guarantee these will function or even continue to exist.</string>
+							<string key="NSContents">Die folgenden Einstellungen sind nur aus Testgründen und gelten als experimentell. Benutze sie auf eigene Gefahr. Es gibt keine Garantie dafür dass diese Funktionen funktionieren oder überhaupt weiterhin existieren werden.</string>
 							<reference key="NSSupport" ref="25"/>
 							<reference key="NSControlView" ref="460208236"/>
 							<reference key="NSBackgroundColor" ref="326222776"/>
@@ -5284,7 +5284,7 @@ wGw</bytes>
 											<object class="NSButtonCell" key="NSCell" id="374125543">
 												<int key="NSCellFlags">-2080374784</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Use "x" to indicate user with no mode set in user list.</string>
+												<string key="NSContents">Benutze "x" um User ohne Modes in der Liste anzuzeigen. </string>
 												<reference key="NSSupport" ref="90392730"/>
 												<string key="NSCellIdentifier">_NS:239</string>
 												<reference key="NSControlView" ref="675166357"/>
@@ -5310,7 +5310,7 @@ wGw</bytes>
 											<object class="NSButtonCell" key="NSCell" id="646480114">
 												<int key="NSCellFlags">-2080374784</int>
 												<int key="NSCellFlags2">268435456</int>
-												<string key="NSContents">Darken main window colors.</string>
+												<string key="NSContents">Verdunkle Hauptfenster Farben.</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<string key="NSCellIdentifier">_NS:9</string>
 												<reference key="NSControlView" ref="119407105"/>
@@ -5336,7 +5336,7 @@ wGw</bytes>
 											<object class="NSButtonCell" key="NSCell" id="457428185">
 												<int key="NSCellFlags">-2080374784</int>
 												<int key="NSCellFlags2">268435456</int>
-												<string key="NSContents">Hide the buttons left of the input text field.</string>
+												<string key="NSContents">Verstecke die Tasten links neben der Eingabezeile.</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<string key="NSCellIdentifier">_NS:9</string>
 												<reference key="NSControlView" ref="1064482317"/>
@@ -5433,7 +5433,7 @@ wGw</bytes>
 											<object class="NSButtonCell" key="NSCell" id="741829338">
 												<int key="NSCellFlags">67108864</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Check spelling while typing.</string>
+												<string key="NSContents">Rechtschreibprüfung beim tippen.</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="30076426"/>
 												<int key="NSButtonFlags">1211912448</int>
@@ -5457,7 +5457,7 @@ wGw</bytes>
 											<object class="NSButtonCell" key="NSCell" id="717996408">
 												<int key="NSCellFlags">67108864</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Check grammar with spelling.</string>
+												<string key="NSContents">Grammatikprüfung zusammen mit Rechtschreibprüfung</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="743428706"/>
 												<int key="NSButtonFlags">1211912448</int>
@@ -5480,7 +5480,7 @@ wGw</bytes>
 											<object class="NSButtonCell" key="NSCell" id="173095642">
 												<int key="NSCellFlags">67108864</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Correct spelling automatically.</string>
+												<string key="NSContents">Korrigiere Schreibweise automatisch.</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="730644199"/>
 												<int key="NSButtonFlags">1211912448</int>
@@ -5505,7 +5505,7 @@ wGw</bytes>
 											<object class="NSButtonCell" key="NSCell" id="822610449">
 												<int key="NSCellFlags">-2080374784</int>
 												<int key="NSCellFlags2">268435456</int>
-												<string key="NSContents">Use large font for the server &amp; user lists.</string>
+												<string key="NSContents">Benutze große Schriftart für Server &amp; User Listen.</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<string key="NSCellIdentifier">_NS:9</string>
 												<reference key="NSControlView" ref="112091288"/>
@@ -5531,7 +5531,7 @@ wGw</bytes>
 											<object class="NSButtonCell" key="NSCell" id="961982134">
 												<int key="NSCellFlags">-2080374784</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Place known server staff members at top of user list.</string>
+												<string key="NSContents">Platziere bekannte Server Mitarbeiter an der Oberseite der Userliste.</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<string key="NSCellIdentifier">_NS:239</string>
 												<reference key="NSControlView" ref="212878059"/>
@@ -5571,7 +5571,7 @@ wGw</bytes>
 											<object class="NSButtonCell" key="NSCell" id="191053595">
 												<int key="NSCellFlags">67108864</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Connect to server on double click.</string>
+												<string key="NSContents">Verbinde zu einem Server bei Doppelklick</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="98555756"/>
 												<int key="NSButtonFlags">1211912448</int>
@@ -5595,7 +5595,7 @@ wGw</bytes>
 											<object class="NSButtonCell" key="NSCell" id="771651380">
 												<int key="NSCellFlags">67108864</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Join channel on double click.</string>
+												<string key="NSContents">Betrete einen Channel bei Doppelklick</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="449027047"/>
 												<int key="NSButtonFlags">1211912448</int>
@@ -5619,7 +5619,7 @@ wGw</bytes>
 											<object class="NSButtonCell" key="NSCell" id="258278920">
 												<int key="NSCellFlags">67108864</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Leave channel on double click.</string>
+												<string key="NSContents">Verlasse Channel bei Doppelklick</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="967874741"/>
 												<int key="NSButtonFlags">1211912448</int>
@@ -5643,7 +5643,7 @@ wGw</bytes>
 											<object class="NSButtonCell" key="NSCell" id="636177818">
 												<int key="NSCellFlags">67108864</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Disconnect from server on double click.</string>
+												<string key="NSContents">Trenne vom Server bei Doppelklick</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="502142331"/>
 												<int key="NSButtonFlags">1211912448</int>
@@ -5680,7 +5680,7 @@ wGw</bytes>
 												<int key="NSPeriodicInterval">75</int>
 												<object class="NSMenuItem" key="NSMenuItem" id="445125223">
 													<reference key="NSMenu" ref="939072200"/>
-													<string key="NSTitle">Complete nicknames, channels, and commands</string>
+													<string key="NSTitle">Vervollständige Nick-Namen, Channels und Befehle</string>
 													<string key="NSKeyEquiv"/>
 													<int key="NSKeyEquivModMask">1048576</int>
 													<int key="NSMnemonicLoc">2147483647</int>
@@ -5696,7 +5696,7 @@ wGw</bytes>
 													<array class="NSMutableArray" key="NSMenuItems">
 														<object class="NSMenuItem" id="113464375">
 															<reference key="NSMenu" ref="939072200"/>
-															<string key="NSTitle">Perform no action</string>
+															<string key="NSTitle">Führe keine Aktion aus</string>
 															<string key="NSKeyEquiv"/>
 															<int key="NSKeyEquivModMask">1048576</int>
 															<int key="NSMnemonicLoc">2147483647</int>
@@ -5708,7 +5708,7 @@ wGw</bytes>
 														</object>
 														<object class="NSMenuItem" id="590246519">
 															<reference key="NSMenu" ref="939072200"/>
-															<string key="NSTitle">Move to next unread channel</string>
+															<string key="NSTitle">Gehe zum nächsten ungelesenen Channel</string>
 															<string key="NSKeyEquiv"/>
 															<int key="NSKeyEquivModMask">1048576</int>
 															<int key="NSMnemonicLoc">2147483647</int>
@@ -5739,7 +5739,7 @@ wGw</bytes>
 											<object class="NSTextFieldCell" key="NSCell" id="593504567">
 												<int key="NSCellFlags">68157504</int>
 												<int key="NSCellFlags2">272630784</int>
-												<string key="NSContents">Autocomplete Suffix:</string>
+												<string key="NSContents">Autovervollständigung Erweiterung:</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="715674549"/>
 												<reference key="NSBackgroundColor" ref="326222776"/>
@@ -5776,7 +5776,7 @@ wGw</bytes>
 											<object class="NSTextFieldCell" key="NSCell" id="427644298">
 												<int key="NSCellFlags">68157504</int>
 												<int key="NSCellFlags2">272630784</int>
-												<string key="NSContents">Double clicking a user:</string>
+												<string key="NSContents">Doppelklicken eines Users: </string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="735781700"/>
 												<reference key="NSBackgroundColor" ref="326222776"/>
@@ -5821,7 +5821,7 @@ wGw</bytes>
 													<array class="NSMutableArray" key="NSMenuItems">
 														<object class="NSMenuItem" id="912368320">
 															<reference key="NSMenu" ref="753605547"/>
-															<string key="NSTitle">Open Query</string>
+															<string key="NSTitle">Öffne Query</string>
 															<string key="NSKeyEquiv"/>
 															<int key="NSKeyEquivModMask">1048576</int>
 															<int key="NSMnemonicLoc">2147483647</int>
@@ -5853,7 +5853,7 @@ wGw</bytes>
 											<object class="NSTextFieldCell" key="NSCell" id="255542444">
 												<int key="NSCellFlags">68157504</int>
 												<int key="NSCellFlags2">272630784</int>
-												<string key="NSContents">Command (⌘) + W keys:</string>
+												<string key="NSContents">Befehl (⌘) + W Tasten:</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="1027460311"/>
 												<reference key="NSBackgroundColor" ref="326222776"/>
@@ -5881,7 +5881,7 @@ wGw</bytes>
 												<int key="NSPeriodicInterval">75</int>
 												<object class="NSMenuItem" key="NSMenuItem" id="742067696">
 													<reference key="NSMenu" ref="439189180"/>
-													<string key="NSTitle">Disconnect and Quit Application</string>
+													<string key="NSTitle">Trenne und schließe Programm</string>
 													<string key="NSKeyEquiv"/>
 													<int key="NSMnemonicLoc">2147483647</int>
 													<int key="NSState">1</int>
@@ -5896,7 +5896,7 @@ wGw</bytes>
 													<array class="NSMutableArray" key="NSMenuItems">
 														<object class="NSMenuItem" id="473180140">
 															<reference key="NSMenu" ref="439189180"/>
-															<string key="NSTitle">Close Main Window</string>
+															<string key="NSTitle">Schließe Hauptfenster</string>
 															<string key="NSKeyEquiv"/>
 															<int key="NSKeyEquivModMask">1048576</int>
 															<int key="NSMnemonicLoc">2147483647</int>
@@ -5907,7 +5907,7 @@ wGw</bytes>
 														</object>
 														<object class="NSMenuItem" id="72122451">
 															<reference key="NSMenu" ref="439189180"/>
-															<string key="NSTitle">Close Selected Channel/Query</string>
+															<string key="NSTitle">Schließe ausgewähltes Channel/Query</string>
 															<string key="NSKeyEquiv"/>
 															<int key="NSKeyEquivModMask">1048576</int>
 															<int key="NSMnemonicLoc">2147483647</int>
@@ -5918,7 +5918,7 @@ wGw</bytes>
 														</object>
 														<object class="NSMenuItem" id="445140501">
 															<reference key="NSMenu" ref="439189180"/>
-															<string key="NSTitle">Disconnect from Current Server</string>
+															<string key="NSTitle">Trennung vom aktuellen Server </string>
 															<string key="NSKeyEquiv"/>
 															<int key="NSKeyEquivModMask">1048576</int>
 															<int key="NSMnemonicLoc">2147483647</int>
@@ -5949,7 +5949,7 @@ wGw</bytes>
 											<object class="NSTextFieldCell" key="NSCell" id="48651059">
 												<int key="NSCellFlags">68157504</int>
 												<int key="NSCellFlags2">272630784</int>
-												<string key="NSContents">Label</string>
+												<string key="NSContents">Beschriftung</string>
 												<reference key="NSSupport" ref="756028785"/>
 												<reference key="NSControlView" ref="60154753"/>
 												<reference key="NSBackgroundColor" ref="326222776"/>
@@ -5967,7 +5967,7 @@ wGw</bytes>
 											<object class="NSTextFieldCell" key="NSCell" id="107506023">
 												<int key="NSCellFlags">68157504</int>
 												<int key="NSCellFlags2">272630784</int>
-												<string key="NSContents">Preview:</string>
+												<string key="NSContents">Vorschau:</string>
 												<object class="NSFont" key="NSSupport">
 													<string key="NSName">LucidaGrande-Bold</string>
 													<double key="NSSize">11</double>
@@ -6012,7 +6012,7 @@ wGw</bytes>
 											<object class="NSTextFieldCell" key="NSCell" id="930901061">
 												<int key="NSCellFlags">68157504</int>
 												<int key="NSCellFlags2">272630784</int>
-												<string key="NSContents">Tab key Action:</string>
+												<string key="NSContents">Tab-Taste Aktion:</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="423561567"/>
 												<reference key="NSBackgroundColor" ref="326222776"/>
@@ -6030,7 +6030,7 @@ wGw</bytes>
 											<object class="NSButtonCell" key="NSCell" id="396690483">
 												<int key="NSCellFlags">67108864</int>
 												<int key="NSCellFlags2">0</int>
-												<string key="NSContents">Copy selected text when mouse button is released</string>
+												<string key="NSContents">Kopiere ausgewählten Text wenn Maustaste losgelassen wurde</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="1071183769"/>
 												<int key="NSButtonFlags">1211912448</int>
@@ -6053,7 +6053,7 @@ wGw</bytes>
 											<object class="NSTextFieldCell" key="NSCell" id="338592764">
 												<int key="NSCellFlags">69206017</int>
 												<int key="NSCellFlags2">272629760</int>
-												<string key="NSContents">Holding the command key (⌘) during selection disables option temporarly.</string>
+												<string key="NSContents">Halten der Befehlstaste (⌘) beim auswählen deaktiviert die Option vorübergehend.</string>
 												<reference key="NSSupport" ref="24"/>
 												<reference key="NSControlView" ref="994240287"/>
 												<reference key="NSBackgroundColor" ref="326222776"/>
@@ -6137,7 +6137,7 @@ wGw</bytes>
 									<string key="NSFrame">{{10, 25}, {495, 380}}</string>
 									<reference key="NSNextKeyView" ref="423561567"/>
 								</object>
-								<string key="NSLabel">Keyboard &amp; Mouse</string>
+								<string key="NSLabel">Tastatur &amp; Maus</string>
 								<reference key="NSColor" ref="326222776"/>
 								<reference key="NSTabView" ref="617805785"/>
 							</object>
@@ -6174,7 +6174,7 @@ wGw</bytes>
 											<object class="NSTextFieldCell" key="NSCell" id="542867782">
 												<int key="NSCellFlags">68157504</int>
 												<int key="NSCellFlags2">272630784</int>
-												<string key="NSContents">Server Staff Member:</string>
+												<string key="NSContents">Server Mitarbeiter:</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="1038852305"/>
 												<reference key="NSBackgroundColor" ref="326222776"/>
@@ -6210,7 +6210,7 @@ wGw</bytes>
 											<object class="NSTextFieldCell" key="NSCell" id="533511580">
 												<int key="NSCellFlags">68157504</int>
 												<int key="NSCellFlags2">272630784</int>
-												<string key="NSContents">Channel Owner (+q):</string>
+												<string key="NSContents">Channel Besitzer (+q):</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<reference key="NSControlView" ref="151452105"/>
 												<reference key="NSBackgroundColor" ref="326222776"/>
@@ -6374,7 +6374,7 @@ wGw</bytes>
 											<object class="NSTextFieldCell" key="NSCell" id="544187045">
 												<int key="NSCellFlags">67108864</int>
 												<int key="NSCellFlags2">272629760</int>
-												<string key="NSContents">These colors represent the various user modes shown on the user list for each channel.</string>
+												<string key="NSContents">Diese Farben repräsentieren die verschiedenen User-Modes die in der User-Liste für jeden Channel angezeigt werden.</string>
 												<reference key="NSSupport" ref="90392730"/>
 												<string key="NSCellIdentifier">_NS:9</string>
 												<reference key="NSControlView" ref="834587592"/>
@@ -6441,7 +6441,7 @@ wGw</bytes>
 											<object class="NSButtonCell" key="NSCell" id="682168774">
 												<int key="NSCellFlags">67108864</int>
 												<int key="NSCellFlags2">134217728</int>
-												<string key="NSContents">Reset to Defaults</string>
+												<string key="NSContents">Zurücksetzen auf Standardwerte</string>
 												<reference key="NSSupport" ref="325354301"/>
 												<string key="NSCellIdentifier">_NS:9</string>
 												<reference key="NSControlView" ref="17127069"/>
@@ -6458,7 +6458,7 @@ wGw</bytes>
 									<string key="NSFrame">{{10, 25}, {495, 380}}</string>
 									<reference key="NSNextKeyView" ref="834587592"/>
 								</object>
-								<string key="NSLabel">User List Mode Colors</string>
+								<string key="NSLabel">User Liste Mode Farben</string>
 								<reference key="NSColor" ref="326222776"/>
 								<reference key="NSTabView" ref="617805785"/>
 							</object>
@@ -6566,7 +6566,7 @@ wGw</bytes>
 								<int key="NSTag">1</int>
 								<int key="NSButtonFlags">1211912448</int>
 								<int key="NSButtonFlags2">0</int>
-								<object class="NSCustomResource" key="NSNormalImage" id="371130370">
+								<object class="NSCustomResource" key="NSNormalImage" id="268217922">
 									<string key="NSClassName">NSImage</string>
 									<string key="NSResourceName">NSRadioButton</string>
 								</object>
@@ -6586,7 +6586,7 @@ wGw</bytes>
 								<reference key="NSControlView" ref="604998845"/>
 								<int key="NSButtonFlags">1211912448</int>
 								<int key="NSButtonFlags2">0</int>
-								<reference key="NSNormalImage" ref="371130370"/>
+								<reference key="NSNormalImage" ref="268217922"/>
 								<reference key="NSAlternateImage" ref="268884622"/>
 								<string key="NSAlternateContents"/>
 								<int key="NSPeriodicDelay">400</int>
@@ -6604,7 +6604,7 @@ wGw</bytes>
 							<reference key="NSSupport" ref="325354301"/>
 							<int key="NSButtonFlags">1211912448</int>
 							<int key="NSButtonFlags2">0</int>
-							<reference key="NSNormalImage" ref="371130370"/>
+							<reference key="NSNormalImage" ref="268217922"/>
 							<reference key="NSAlternateImage" ref="268884622"/>
 							<string key="NSAlternateContents"/>
 							<int key="NSPeriodicDelay">400</int>
@@ -6625,7 +6625,7 @@ wGw</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="998213665">
 							<int key="NSCellFlags">68157504</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">command.</string>
+							<string key="NSContents">Befehl.</string>
 							<reference key="NSSupport" ref="90392730"/>
 							<reference key="NSControlView" ref="260975220"/>
 							<reference key="NSBackgroundColor" ref="326222776"/>
@@ -6661,7 +6661,7 @@ wGw</bytes>
 						<object class="NSButtonCell" key="NSCell" id="296066137">
 							<int key="NSCellFlags">67108864</int>
 							<int key="NSCellFlags2">0</int>
-							<string key="NSContents">Give focus to destination of the          </string>
+							<string key="NSContents">Gebe Fokus zur Ziel der</string>
 							<reference key="NSSupport" ref="90392730"/>
 							<reference key="NSControlView" ref="831788548"/>
 							<int key="NSButtonFlags">1211912448</int>
@@ -6685,7 +6685,7 @@ wGw</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="731519331">
 							<int key="NSCellFlags">68157504</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">applies to all active connections.</string>
+							<string key="NSContents">gilt für alle aktiven Verbindungen.</string>
 							<reference key="NSSupport" ref="90392730"/>
 							<reference key="NSControlView" ref="2322650"/>
 							<reference key="NSBackgroundColor" ref="326222776"/>
@@ -9228,7 +9228,7 @@ wGw</bytes>
 							<string key="NSKeyPath">values.Keyboard -&gt; Tab Key Completion Suffix</string>
 							<object class="NSDictionary" key="NSOptions">
 								<string key="NS.key.0">NSDisplayPattern</string>
-								<string key="NS.object.0">"JohnDoe%{value1}@…"</string>
+								<string key="NS.object.0">"MaxMustermann%{value1}@…"</string>
 							</object>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
@@ -13875,7 +13875,7 @@ wGw</bytes>
 					<object class="IBAccessibilityAttribute" key="NS.object.0">
 						<string key="name">AccessibilityHelp</string>
 						<reference key="object" ref="895595012"/>
-						<string key="accessibilityValue">Suffix to place after result when using the tab key to autocomplete a value.</string>
+						<string key="accessibilityValue">Erweiterung zum platzieren nach einem Ergebnis wenn die Tab-Taste zum vervollständigen eines Wertes verwendet wird.</string>
 					</object>
 				</object>
 				<string key="7085.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
