@@ -809,7 +809,7 @@
 											</object>
 											<object class="NSMenuItem" id="739528529">
 												<reference key="NSMenu" ref="557176961"/>
-												<string key="NSTitle">Topic</string>
+												<string key="NSTitle">Thema</string>
 												<string key="NSKeyEquiv">t</string>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
@@ -2977,7 +2977,7 @@
 											</object>
 											<object class="NSMenuItem" id="516291847">
 												<reference key="NSMenu" ref="774445921"/>
-												<string key="NSTitle">Topic</string>
+												<string key="NSTitle">Thema</string>
 												<string key="NSKeyEquiv">t</string>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>

@@ -1262,7 +1262,7 @@
 												<object class="NSTextFieldCell" key="NSDataCell" id="46275747">
 													<int key="NSCellFlags">337641536</int>
 													<int key="NSCellFlags2">2048</int>
-													<string key="NSContents">Text Cell</string>
+													<string key="NSContents">Tekstcelle</string>
 													<reference key="NSSupport" ref="325354301"/>
 													<reference key="NSControlView" ref="700226325"/>
 													<object class="NSColor" key="NSBackgroundColor" id="78123678">
@@ -1434,7 +1434,7 @@
 												<object class="NSTextFieldCell" key="NSDataCell" id="483068771">
 													<int key="NSCellFlags">337641536</int>
 													<int key="NSCellFlags2">2048</int>
-													<string key="NSContents">Text Cell</string>
+													<string key="NSContents">Tekstcelle</string>
 													<reference key="NSSupport" ref="325354301"/>
 													<reference key="NSControlView" ref="987071465"/>
 													<reference key="NSBackgroundColor" ref="78123678"/>
@@ -3543,7 +3543,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 												<object class="NSTextFieldCell" key="NSDataCell" id="603942036">
 													<int key="NSCellFlags">67108928</int>
 													<int key="NSCellFlags2">6144</int>
-													<string key="NSContents">Text Cell</string>
+													<string key="NSContents">Tekstcelle</string>
 													<reference key="NSSupport" ref="325354301"/>
 													<reference key="NSControlView" ref="22198671"/>
 													<reference key="NSBackgroundColor" ref="78123678"/>
@@ -6566,7 +6566,7 @@ wGw</bytes>
 								<int key="NSTag">1</int>
 								<int key="NSButtonFlags">1211912448</int>
 								<int key="NSButtonFlags2">0</int>
-								<object class="NSCustomResource" key="NSNormalImage" id="958639431">
+								<object class="NSCustomResource" key="NSNormalImage" id="439228898">
 									<string key="NSClassName">NSImage</string>
 									<string key="NSResourceName">NSRadioButton</string>
 								</object>
@@ -6586,7 +6586,7 @@ wGw</bytes>
 								<reference key="NSControlView" ref="604998845"/>
 								<int key="NSButtonFlags">1211912448</int>
 								<int key="NSButtonFlags2">0</int>
-								<reference key="NSNormalImage" ref="958639431"/>
+								<reference key="NSNormalImage" ref="439228898"/>
 								<reference key="NSAlternateImage" ref="268884622"/>
 								<string key="NSAlternateContents"/>
 								<int key="NSPeriodicDelay">400</int>
@@ -6604,7 +6604,7 @@ wGw</bytes>
 							<reference key="NSSupport" ref="325354301"/>
 							<int key="NSButtonFlags">1211912448</int>
 							<int key="NSButtonFlags2">0</int>
-							<reference key="NSNormalImage" ref="958639431"/>
+							<reference key="NSNormalImage" ref="439228898"/>
 							<reference key="NSAlternateImage" ref="268884622"/>
 							<string key="NSAlternateContents"/>
 							<int key="NSPeriodicDelay">400</int>

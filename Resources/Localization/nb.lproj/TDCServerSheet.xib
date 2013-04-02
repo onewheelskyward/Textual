@@ -162,7 +162,7 @@
 																	<object class="NSTextFieldCell" key="NSDataCell" id="149634594">
 																		<int key="NSCellFlags">337641536</int>
 																		<int key="NSCellFlags2">133120</int>
-																		<string key="NSContents">Text Cell</string>
+																		<string key="NSContents">Tekstcelle</string>
 																		<reference key="NSSupport" ref="26"/>
 																		<reference key="NSControlView" ref="371014869"/>
 																		<object class="NSColor" key="NSBackgroundColor" id="98629736">
@@ -1445,7 +1445,7 @@
 						<object class="NSButtonCell" key="NSCell" id="746388957">
 							<int key="NSCellFlags">67108864</int>
 							<int key="NSCellFlags2">134217728</int>
-							<string key="NSContents">Edit</string>
+							<string key="NSContents">Rediger</string>
 							<reference key="NSSupport" ref="788253527"/>
 							<reference key="NSControlView" ref="585121326"/>
 							<int key="NSButtonFlags">-2033434624</int>
@@ -1533,7 +1533,7 @@
 												<object class="NSTextFieldCell" key="NSDataCell" id="614960656">
 													<int key="NSCellFlags">337641536</int>
 													<int key="NSCellFlags2">2048</int>
-													<string key="NSContents">Text Cell</string>
+													<string key="NSContents">Tekstcelle</string>
 													<reference key="NSSupport" ref="788253527"/>
 													<reference key="NSControlView" ref="259655302"/>
 													<reference key="NSBackgroundColor" ref="98629736"/>
@@ -1559,7 +1559,7 @@
 												<object class="NSTextFieldCell" key="NSDataCell" id="302367240">
 													<int key="NSCellFlags">337641536</int>
 													<int key="NSCellFlags2">2048</int>
-													<string key="NSContents">Text Cell</string>
+													<string key="NSContents">Tekstcelle</string>
 													<reference key="NSSupport" ref="788253527"/>
 													<reference key="NSControlView" ref="259655302"/>
 													<reference key="NSBackgroundColor" ref="98629736"/>
@@ -1721,7 +1721,7 @@
 						<object class="NSButtonCell" key="NSCell" id="1042493826">
 							<int key="NSCellFlags">67108864</int>
 							<int key="NSCellFlags2">134217728</int>
-							<string key="NSContents">Edit</string>
+							<string key="NSContents">Rediger</string>
 							<reference key="NSSupport" ref="788253527"/>
 							<reference key="NSControlView" ref="212453410"/>
 							<int key="NSButtonFlags">-2033434624</int>
@@ -1806,7 +1806,7 @@
 												<object class="NSTextFieldCell" key="NSDataCell" id="771620788">
 													<int key="NSCellFlags">337641536</int>
 													<int key="NSCellFlags2">2048</int>
-													<string key="NSContents">Text Cell</string>
+													<string key="NSContents">Tekstcelle</string>
 													<reference key="NSSupport" ref="788253527"/>
 													<reference key="NSControlView" ref="877569545"/>
 													<reference key="NSBackgroundColor" ref="98629736"/>
@@ -1832,7 +1832,7 @@
 												<object class="NSTextFieldCell" key="NSDataCell" id="12766194">
 													<int key="NSCellFlags">67108928</int>
 													<int key="NSCellFlags2">2048</int>
-													<string key="NSContents">Text Cell</string>
+													<string key="NSContents">Tekstcelle</string>
 													<reference key="NSSupport" ref="788253527"/>
 													<reference key="NSControlView" ref="877569545"/>
 													<reference key="NSBackgroundColor" ref="98629736"/>

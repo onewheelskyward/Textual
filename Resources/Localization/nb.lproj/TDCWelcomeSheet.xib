@@ -198,7 +198,7 @@
 													<object class="NSTextFieldCell" key="NSDataCell" id="7224059">
 														<int key="NSCellFlags">337641536</int>
 														<int key="NSCellFlags2">2048</int>
-														<string key="NSContents">Text Cell</string>
+														<string key="NSContents">Tekstcelle</string>
 														<reference key="NSSupport" ref="787277300"/>
 														<reference key="NSControlView" ref="465506301"/>
 														<object class="NSColor" key="NSBackgroundColor" id="485508907">

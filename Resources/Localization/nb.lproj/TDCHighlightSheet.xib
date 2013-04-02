@@ -119,7 +119,7 @@
 													<object class="NSTextFieldCell" key="NSDataCell" id="206253680">
 														<int key="NSCellFlags">67108928</int>
 														<int key="NSCellFlags2">2048</int>
-														<string key="NSContents">Text Cell</string>
+														<string key="NSContents">Tekstcelle</string>
 														<object class="NSFont" key="NSSupport" id="876066128">
 															<string key="NSName">LucidaGrande</string>
 															<double key="NSSize">13</double>
@@ -170,7 +170,7 @@
 													<object class="NSTextFieldCell" key="NSDataCell" id="433947301">
 														<int key="NSCellFlags">67108928</int>
 														<int key="NSCellFlags2">2048</int>
-														<string key="NSContents">Text Cell</string>
+														<string key="NSContents">Tekstcelle</string>
 														<reference key="NSSupport" ref="876066128"/>
 														<reference key="NSControlView" ref="929335627"/>
 														<reference key="NSBackgroundColor" ref="300696518"/>
@@ -197,7 +197,7 @@
 													<object class="NSTextFieldCell" key="NSDataCell" id="481132882">
 														<int key="NSCellFlags">67108928</int>
 														<int key="NSCellFlags2">2048</int>
-														<string key="NSContents">Text Cell</string>
+														<string key="NSContents">Tekstcelle</string>
 														<reference key="NSSupport" ref="876066128"/>
 														<reference key="NSControlView" ref="929335627"/>
 														<reference key="NSBackgroundColor" ref="300696518"/>
