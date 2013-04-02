@@ -3,91 +3,145 @@ host = https://www.transifex.com
 
 [textual.BasicLanguage]
 source_file = Resources/Localization/English.lproj/BasicLanguage.strings
+file_filter = Resources/Localization/<lang>.lproj/BasicLanguage.strings
 source_lang = en
 type = STRINGS
 
 [textual.TDCAboutPanel]
 source_file = Resources/Localization/English.lproj/TDCAboutPanel.strings
+file_filter = Resources/Localization/<lang>.lproj/TDCAboutPanel.strings
 source_lang = en
 type = STRINGS
 
 [textual.TDCAddressBookSheet]
 source_file = Resources/Localization/English.lproj/TDCAddressBookSheet.strings
+file_filter = Resources/Localization/<lang>.lproj/TDCAddressBookSheet.strings
 source_lang = en
 type = STRINGS
 
 [textual.TDCHighlightSheet]
 source_file = Resources/Localization/English.lproj/TDCHighlightSheet.strings
+file_filter = Resources/Localization/<lang>.lproj/TDCHighlightSheet.strings
 source_lang = en
 type = STRINGS
 
 [textual.TDCInviteSheet]
 source_file = Resources/Localization/English.lproj/TDCInviteSheet.strings
+file_filter = Resources/Localization/<lang>.lproj/TDCInviteSheet.strings
 source_lang = en
 type = STRINGS
 
 [textual.TDCListDialog]
 source_file = Resources/Localization/English.lproj/TDCListDialog.strings
+file_filter = Resources/Localization/<lang>.lproj/TDCListDialog.strings
 source_lang = en
 type = STRINGS
 
 [textual.TDCModeSheet]
 source_file = Resources/Localization/English.lproj/TDCModeSheet.strings
+file_filter = Resources/Localization/<lang>.lproj/TDCModeSheet.strings
 source_lang = en
 type = STRINGS
 
 [textual.TDCNickSheet]
 source_file = Resources/Localization/English.lproj/TDCNickSheet.strings
+file_filter = Resources/Localization/<lang>.lproj/TDCNickSheet.strings
 source_lang = en
 type = STRINGS
 
 [textual.TDCPreferences]
 source_file = Resources/Localization/English.lproj/TDCPreferences.strings
+file_filter = Resources/Localization/<lang>.lproj/TDCPreferences.strings
 source_lang = en
 type = STRINGS
 
 [textual.TDCServerSheet]
 source_file = Resources/Localization/English.lproj/TDCServerSheet.strings
+file_filter = Resources/Localization/<lang>.lproj/TDCServerSheet.strings
 source_lang = en
 type = STRINGS
 
 [textual.TDCTopicSheet]
 source_file = Resources/Localization/English.lproj/TDCTopicSheet.strings
+file_filter = Resources/Localization/<lang>.lproj/TDCTopicSheet.strings
 source_lang = en
 type = STRINGS
 
 [textual.TDCWelcomeSheet]
 source_file = Resources/Localization/English.lproj/TDCWelcomeSheet.strings
+file_filter = Resources/Localization/<lang>.lproj/TDCWelcomeSheet.strings
 source_lang = en
 type = STRINGS
 
 [textual.TDChanBanExceptionSheet]
 source_file = Resources/Localization/English.lproj/TDChanBanExceptionSheet.strings
+file_filter = Resources/Localization/<lang>.lproj/TDChanBanExceptionSheet.strings
 source_lang = en
 type = STRINGS
 
 [textual.TDChanBanSheet]
 source_file = Resources/Localization/English.lproj/TDChanBanSheet.strings
+file_filter = Resources/Localization/<lang>.lproj/TDChanBanSheet.strings
 source_lang = en
 type = STRINGS
 
 [textual.TDChanInviteExceptionSheet]
 source_file = Resources/Localization/English.lproj/TDChanInviteExceptionSheet.strings
+file_filter = Resources/Localization/<lang>.lproj/TDChanInviteExceptionSheet.strings
 source_lang = en
 type = STRINGS
 
 [textual.TDChannelSheet]
 source_file = Resources/Localization/English.lproj/TDChannelSheet.strings
+file_filter = Resources/Localization/<lang>.lproj/TDChannelSheet.strings
 source_lang = en
 type = STRINGS
 
 [textual.TVCInputPromptDialog]
 source_file = Resources/Localization/English.lproj/TVCInputPromptDialog.strings
+file_filter = Resources/Localization/<lang>.lproj/TVCInputPromptDialog.strings
 source_lang = en
 type = STRINGS
 
 [textual.TXCMainMenu]
 source_file = Resources/Localization/English.lproj/TXCMainMenu.strings
+file_filter = Resources/Localization/<lang>.lproj/TXCMainMenu.strings
+source_lang = en
+type = STRINGS
+
+[textual.BlowfishKeyControl]
+source_file = Resources/Plugins/Blowfish Key Control/BasicLanguage.strings
+file_filter = Resources/Plugins/Blowfish Key Control/<lang>.lproj/BasicLanguage.strings
+source_lang = en
+type = STRINGS
+
+[textual.BragSpam]
+source_file = Resources/Plugins/Brag Spam/BasicLanguage.strings
+file_filter = Resources/Plugins/Brag Spam/<lang>.lproj/BasicLanguage.strings
+source_lang = en
+type = STRINGS
+
+[textual.SmileyConverter]
+source_file = Resources/Plugins/Smiley Converter/BasicLanguage.strings
+file_filter = Resources/Plugins/Smiley Converter/<lang>.lproj/BasicLanguage.strings
+source_lang = en
+type = STRINGS
+
+[textual.SpammerParadise]
+source_file = Resources/Plugins/Spammer Paradise/BasicLanguage.strings
+file_filter = Resources/Plugins/Spammer Paradise/<lang>.lproj/BasicLanguage.strings
+source_lang = en
+type = STRINGS
+
+[textual.SystemProfiler]
+source_file = Resources/Plugins/System Profiler/BasicLanguage.strings
+file_filter = Resources/Plugins/System Profiler/<lang>.lproj/BasicLanguage.strings
+source_lang = en
+type = STRINGS
+
+[textual.WikipediaLinks]
+source_file = Resources/Plugins/Wikipedia Links/BasicLanguage.strings
+file_filter = Resources/Plugins/Wikipedia Links/<lang>.lproj/BasicLanguage.strings
 source_lang = en
 type = STRINGS
 

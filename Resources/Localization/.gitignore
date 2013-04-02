@@ -1,0 +1,5 @@
+English.lproj/*.strings
+!English.lproj/BasicLanguage.strings
+??.lproj/*.strings
+!??.lproj/BasicLanguage.strings
+
