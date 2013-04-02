@@ -4,19 +4,14 @@ set -e
 
 pushd "$(dirname "$0")" &>/dev/null
 
-tx pull -a
-
 for lang in ??.lproj; do
-	for XIB in English.lproj/*.xib; do
+	test lang == "en.lproj" && continue
+	for XIB in en.lproj/*.xib; do
 		XIB="$(basename "$XIB")"
 		ibtool 	--import-strings-file "${lang}/${XIB%.xib}.strings" \
 			--write "${lang}/${XIB}" \
-			"English.lproj/${XIB}"
+			"en.lproj/${XIB}"
 	done
 done
 
 popd &>/dev/null
-
-"../Plugins/Smiley Converter/Localization/PullLanguages.sh"
-"../Plugins/System Profiler/Localization/PullLanguages.sh"
-

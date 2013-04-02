@@ -7,19 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C1BE0FA159A5FCF00DB3341 /* TPISystemProfiler.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C1BE0F8159A5FCF00DB3341 /* TPISystemProfiler.xib */; };
 		4C57A681131D378900252759 /* TPI_SP_SysInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57A67E131D378900252759 /* TPI_SP_SysInfo.m */; };
 		4C57A682131D378900252759 /* TPISystemProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57A680131D378900252759 /* TPISystemProfiler.m */; };
 		4C78926D16C628920081E859 /* SystemInformation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C78926A16C628040081E859 /* SystemInformation.framework */; };
-		4CD4026016C8C0EF00FEA686 /* BasicLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4025F16C8C0EF00FEA686 /* BasicLanguage.strings */; };
 		4CD69D82131E2BD200F4618E /* MacintoshModels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CD69D81131E2BD200F4618E /* MacintoshModels.plist */; };
 		4CEE0DD112E09A1900C5096E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEE0DD012E09A1900C5096E /* Cocoa.framework */; };
+		5D014AF2170B9EA8009CB22C /* TPISystemProfiler.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014AF0170B9EA8009CB22C /* TPISystemProfiler.xib */; };
+		5D014AF5170B9EB2009CB22C /* BasicLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D014AF3170B9EB2009CB22C /* BasicLanguage.strings */; };
 		63EF581515D2D5FE001071C8 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EF581215D2D57F001071C8 /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
-		4C1BE0F9159A5FCF00DB3341 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/TPISystemProfiler.xib; sourceTree = "<group>"; };
 		4C57A67C131D378900252759 /* SystemProfiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemProfiler.h; sourceTree = "<group>"; };
 		4C57A67D131D378900252759 /* TPI_SP_SysInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPI_SP_SysInfo.h; sourceTree = "<group>"; };
 		4C57A67E131D378900252759 /* TPI_SP_SysInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPI_SP_SysInfo.m; sourceTree = "<group>"; };
@@ -29,9 +28,18 @@
 		4C69189016E3276200BDE3A8 /* Shared Extension Configuration.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Shared Extension Configuration.xcconfig"; sourceTree = "<group>"; };
 		4C69189216E3276200BDE3A8 /* Shared Release Configuration.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Shared Release Configuration.xcconfig"; sourceTree = "<group>"; };
 		4C78926A16C628040081E859 /* SystemInformation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemInformation.framework; path = ../../../.tmp/SharedBuildProducts/SystemInformation.framework; sourceTree = "<group>"; };
-		4CD4025F16C8C0EF00FEA686 /* BasicLanguage.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = BasicLanguage.strings; sourceTree = "<group>"; };
 		4CD69D81131E2BD200F4618E /* MacintoshModels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MacintoshModels.plist; sourceTree = "<group>"; };
 		4CEE0DD012E09A1900C5096E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5D014AF1170B9EA8009CB22C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Localization/en.lproj/TPISystemProfiler.xib; sourceTree = "<group>"; };
+		5D014AF4170B9EB2009CB22C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localization/en.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014AF6170B9EBF009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localization/de.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014AF7170B9EC5009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Localization/de.lproj/TPISystemProfiler.xib; sourceTree = "<group>"; };
+		5D014AF8170B9ECD009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Localization/fr.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014AF9170B9ED4009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Localization/fr.lproj/TPISystemProfiler.xib; sourceTree = "<group>"; };
+		5D014AFA170B9EDD009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = Localization/nb.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014AFB170B9EE3009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Localization/nb.lproj/TPISystemProfiler.xib; sourceTree = "<group>"; };
+		5D014AFC170B9EEA009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = Localization/pt.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014AFD170B9EEF009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Localization/pt.lproj/TPISystemProfiler.xib; sourceTree = "<group>"; };
 		63EF581215D2D57F001071C8 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		8D576316048677EA00EA77CD /* SystemProfiler.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SystemProfiler.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,7 +124,7 @@
 		4C1BE07B159A57C300DB3341 /* User Interface */ = {
 			isa = PBXGroup;
 			children = (
-				4C1BE0F8159A5FCF00DB3341 /* TPISystemProfiler.xib */,
+				5D014AF0170B9EA8009CB22C /* TPISystemProfiler.xib */,
 			);
 			name = "User Interface";
 			sourceTree = "<group>";
@@ -135,7 +143,7 @@
 		4CD4025D16C8C0C600FEA686 /* Language Files */ = {
 			isa = PBXGroup;
 			children = (
-				4CD4025F16C8C0EF00FEA686 /* BasicLanguage.strings */,
+				5D014AF3170B9EB2009CB22C /* BasicLanguage.strings */,
 			);
 			name = "Language Files";
 			sourceTree = "<group>";
@@ -179,6 +187,10 @@
 				French,
 				German,
 				en,
+				de,
+				fr,
+				nb,
+				pt,
 			);
 			mainGroup = 089C166AFE841209C02AAC07 /* BlowfishCommandLine */;
 			projectDirPath = "";
@@ -194,9 +206,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD4026016C8C0EF00FEA686 /* BasicLanguage.strings in Resources */,
 				4CD69D82131E2BD200F4618E /* MacintoshModels.plist in Resources */,
-				4C1BE0FA159A5FCF00DB3341 /* TPISystemProfiler.xib in Resources */,
+				5D014AF2170B9EA8009CB22C /* TPISystemProfiler.xib in Resources */,
+				5D014AF5170B9EB2009CB22C /* BasicLanguage.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,12 +227,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4C1BE0F8159A5FCF00DB3341 /* TPISystemProfiler.xib */ = {
+		5D014AF0170B9EA8009CB22C /* TPISystemProfiler.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4C1BE0F9159A5FCF00DB3341 /* English */,
+				5D014AF1170B9EA8009CB22C /* en */,
+				5D014AF7170B9EC5009CB22C /* de */,
+				5D014AF9170B9ED4009CB22C /* fr */,
+				5D014AFB170B9EE3009CB22C /* nb */,
+				5D014AFD170B9EEF009CB22C /* pt */,
 			);
 			name = TPISystemProfiler.xib;
+			sourceTree = "<group>";
+		};
+		5D014AF3170B9EB2009CB22C /* BasicLanguage.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D014AF4170B9EB2009CB22C /* en */,
+				5D014AF6170B9EBF009CB22C /* de */,
+				5D014AF8170B9ECD009CB22C /* fr */,
+				5D014AFA170B9EDD009CB22C /* nb */,
+				5D014AFC170B9EEA009CB22C /* pt */,
+			);
+			name = BasicLanguage.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

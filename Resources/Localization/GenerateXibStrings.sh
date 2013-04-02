@@ -7,3 +7,4 @@ done
 popd &>/dev/null
 
 "../Plugins/Smiley Converter/Localization/GenerateXibStrings.sh"
+"../Plugins/System Profiler/Localization/GenerateXibStrings.sh"

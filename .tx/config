@@ -163,9 +163,16 @@ source_lang = en
 type = STRINGS
 
 [textual.SystemProfiler]
-source_file = Resources/Plugins/System Profiler/BasicLanguage.strings
-file_filter = Resources/Plugins/System Profiler/<lang>.lproj/BasicLanguage.strings
-trans.no = Resources/Plugins/System Profiler/nb.lproj/BasicLanguage.strings
+source_file = Resources/Plugins/System Profiler/Localization/en.lproj/BasicLanguage.strings
+file_filter = Resources/Plugins/System Profiler//Localization/<lang>.lproj/BasicLanguage.strings
+trans.no = Resources/Plugins/System Profiler//Localization/nb.lproj/BasicLanguage.strings
+source_lang = en
+type = STRINGS
+
+[textual.TPISystemProfiler]
+source_file = Resources/Plugins/System Profiler/Localization/en.lproj/TPISystemProfiler.strings
+file_filter = Resources/Plugins/System Profiler/Localization/<lang>.lproj/TPISystemProfiler.strings
+trans.no = Resources/Plugins/System Profiler/Localization/nb.lproj/TPISystemProfiler.strings
 source_lang = en
 type = STRINGS
 
