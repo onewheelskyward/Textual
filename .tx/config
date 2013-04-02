@@ -128,9 +128,8 @@ source_lang = en
 type = STRINGS
 
 [textual.BlowfishKeyControl]
-source_file = Resources/Plugins/Blowfish Key Control/BasicLanguage.strings
-file_filter = Resources/Plugins/Blowfish Key Control/<lang>.lproj/BasicLanguage.strings
-trans.no = Resources/Plugins/Blowfish Key Control/nb.lproj/BasicLanguage.strings
+file_filter = Resources/Plugins/Blowfish Key Control/Localization/<lang>.lproj/BasicLanguage.strings
+trans.no = Resources/Plugins/Blowfish Key Control/Localization/nb.lproj/BasicLanguage.strings
 source_lang = en
 type = STRINGS
 

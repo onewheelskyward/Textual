@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4C68426D16C5B3E10005A59E /* BlowfishEncryption.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C68426C16C5B3E10005A59E /* BlowfishEncryption.framework */; };
-		4CD4027016C8CE5700FEA686 /* BasicLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4026916C8CC5800FEA686 /* BasicLanguage.strings */; };
 		4CEE0DD112E09A1900C5096E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEE0DD012E09A1900C5096E /* Cocoa.framework */; };
 		4CEE0E8912E09A9800C5096E /* TPI_BlowfishCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE0E8812E09A9800C5096E /* TPI_BlowfishCommands.m */; };
+		5D014AC9170B931F009CB22C /* BasicLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D014AC7170B931F009CB22C /* BasicLanguage.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,10 +19,14 @@
 		4C68426C16C5B3E10005A59E /* BlowfishEncryption.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BlowfishEncryption.framework; path = ../../../.tmp/SharedBuildProducts/BlowfishEncryption.framework; sourceTree = "<group>"; };
 		4C69187E16E3275700BDE3A8 /* Shared Extension Configuration.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Shared Extension Configuration.xcconfig"; sourceTree = "<group>"; };
 		4C69188016E3275700BDE3A8 /* Shared Release Configuration.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Shared Release Configuration.xcconfig"; sourceTree = "<group>"; };
-		4CD4026916C8CC5800FEA686 /* BasicLanguage.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = BasicLanguage.strings; sourceTree = "<group>"; };
 		4CEE0DD012E09A1900C5096E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4CEE0E8712E09A9800C5096E /* TPI_BlowfishCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPI_BlowfishCommands.h; sourceTree = "<group>"; };
 		4CEE0E8812E09A9800C5096E /* TPI_BlowfishCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPI_BlowfishCommands.m; sourceTree = "<group>"; };
+		5D014AC8170B931F009CB22C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localization/en.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014ACA170B932A009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localization/de.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014ACB170B932C009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Localization/fr.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014ACC170B932E009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = Localization/nb.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014ACD170B9330009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = Localization/pt.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
 		8D576316048677EA00EA77CD /* BlowfishCommandLine.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlowfishCommandLine.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +105,7 @@
 		4CD4026616C8CC0000FEA686 /* Language Files */ = {
 			isa = PBXGroup;
 			children = (
-				4CD4026916C8CC5800FEA686 /* BasicLanguage.strings */,
+				5D014AC7170B931F009CB22C /* BasicLanguage.strings */,
 			);
 			name = "Language Files";
 			sourceTree = "<group>";
@@ -169,6 +173,12 @@
 				Japanese,
 				French,
 				German,
+				de,
+				fr,
+				no,
+				pt,
+				en,
+				nb,
 			);
 			mainGroup = 089C166AFE841209C02AAC07 /* BlowfishCommandLine */;
 			projectDirPath = "";
@@ -184,7 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD4027016C8CE5700FEA686 /* BasicLanguage.strings in Resources */,
+				5D014AC9170B931F009CB22C /* BasicLanguage.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +210,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D014AC7170B931F009CB22C /* BasicLanguage.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D014AC8170B931F009CB22C /* en */,
+				5D014ACA170B932A009CB22C /* de */,
+				5D014ACB170B932C009CB22C /* fr */,
+				5D014ACC170B932E009CB22C /* nb */,
+				5D014ACD170B9330009CB22C /* pt */,
+			);
+			name = BasicLanguage.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB911B08733D790010E9CD /* Debug */ = {
