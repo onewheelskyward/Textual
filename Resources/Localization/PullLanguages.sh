@@ -15,7 +15,8 @@ for lang in ??.lproj; do
 	done
 done
 
-"../Plugins/Smiley Converter/Localization/PullLanguages.sh"
-"../Plugins/System Profiler/Localization/PullLanguages.sh"
-"../Plugins/Wikipedia Links/Localization/PullLanguages.sh"
+../Plugins/Smiley\ Converter/Localization/PullLanguages.sh
+../Plugins/System\ Profiler/Localization/PullLanguages.sh
+../Plugins/Wikipedia\ Links/Localization/PullLanguages.sh
+
 popd &>/dev/null

@@ -114,7 +114,7 @@
 						<object class="NSButtonCell" key="NSCell" id="959664093">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">268435456</int>
-							<string key="NSContents">Use strict matching.</string>
+							<string key="NSContents">Benutze striktes Matching.</string>
 							<object class="NSFont" key="NSSupport" id="996739491">
 								<string key="NSName">LucidaGrande</string>
 								<double key="NSSize">13</double>
@@ -182,7 +182,7 @@
 						<object class="NSTextFieldCell" key="NSCell" id="693477187">
 							<int key="NSCellFlags">67108864</int>
 							<int key="NSCellFlags2">272629760</int>
-							<string key="NSContents">Strict matching will only replace smileys that are surrounded by empty spaces. It is recommended to enable this. For example: "::: :-)" will be converted, but ":::-)" will not. Reduced false positives.</string>
+							<string key="NSContents">Striktes Matching wird nur Smileys ersetzen die von Leerzeichen umgeben sind. Es wird empfohlen dies zu aktivieren. Zum Beispiel: "::: :-)" wird konvertiert, aber ":::-)" wird nicht konvertiert. Reduziert falsche Übereinstimmungen.</string>
 							<object class="NSFont" key="NSSupport" id="32761396">
 								<string key="NSName">LucidaGrande</string>
 								<double key="NSSize">12</double>
@@ -206,7 +206,7 @@
 						<object class="NSButtonCell" key="NSCell" id="492569932">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">268435456</int>
-							<string key="NSContents">Convert outgoing smileys.</string>
+							<string key="NSContents">Konvertiere ausgehende Smileys.</string>
 							<reference key="NSSupport" ref="996739491"/>
 							<string key="NSCellIdentifier">_NS:9</string>
 							<reference key="NSControlView" ref="1058522271"/>
@@ -232,7 +232,7 @@
 						<object class="NSButtonCell" key="NSCell" id="725278570">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">268435456</int>
-							<string key="NSContents">Convert incoming smileys.</string>
+							<string key="NSContents">Konvertiere eingehende Smileys.</string>
 							<reference key="NSSupport" ref="996739491"/>
 							<string key="NSCellIdentifier">_NS:9</string>
 							<reference key="NSControlView" ref="895292163"/>

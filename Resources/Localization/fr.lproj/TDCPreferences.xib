@@ -6570,7 +6570,7 @@ wGw</bytes>
 								<int key="NSTag">1</int>
 								<int key="NSButtonFlags">1211912448</int>
 								<int key="NSButtonFlags2">0</int>
-								<object class="NSCustomResource" key="NSNormalImage" id="1010823278">
+								<object class="NSCustomResource" key="NSNormalImage" id="318985254">
 									<string key="NSClassName">NSImage</string>
 									<string key="NSResourceName">NSRadioButton</string>
 								</object>
@@ -6590,7 +6590,7 @@ wGw</bytes>
 								<reference key="NSControlView" ref="604998845"/>
 								<int key="NSButtonFlags">1211912448</int>
 								<int key="NSButtonFlags2">0</int>
-								<reference key="NSNormalImage" ref="1010823278"/>
+								<reference key="NSNormalImage" ref="318985254"/>
 								<reference key="NSAlternateImage" ref="268884622"/>
 								<string key="NSAlternateContents"/>
 								<int key="NSPeriodicDelay">400</int>
@@ -6608,7 +6608,7 @@ wGw</bytes>
 							<reference key="NSSupport" ref="325354301"/>
 							<int key="NSButtonFlags">1211912448</int>
 							<int key="NSButtonFlags2">0</int>
-							<reference key="NSNormalImage" ref="1010823278"/>
+							<reference key="NSNormalImage" ref="318985254"/>
 							<reference key="NSAlternateImage" ref="268884622"/>
 							<string key="NSAlternateContents"/>
 							<int key="NSPeriodicDelay">400</int>
