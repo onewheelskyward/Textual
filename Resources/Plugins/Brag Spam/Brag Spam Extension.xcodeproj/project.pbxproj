@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C393AAD121AE217004C66F4 /* TPIBragSpam.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C393AAC121AE217004C66F4 /* TPIBragSpam.m */; };
 		4C393B2E121AE5D5004C66F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C393B2D121AE5D5004C66F4 /* Cocoa.framework */; };
-		4CD4026516C8CB3F00FEA686 /* BasicLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CD4026416C8CB3F00FEA686 /* BasicLanguage.strings */; };
+		5D014AD3170B9459009CB22C /* BasicLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D014AD1170B9459009CB22C /* BasicLanguage.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,11 @@
 		4C588BB416E34C07007EFF6D /* Code Signing Identity.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Code Signing Identity.xcconfig"; sourceTree = "<group>"; };
 		4C69188716E3275D00BDE3A8 /* Shared Extension Configuration.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Shared Extension Configuration.xcconfig"; sourceTree = "<group>"; };
 		4C69188916E3275D00BDE3A8 /* Shared Release Configuration.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Shared Release Configuration.xcconfig"; sourceTree = "<group>"; };
-		4CD4026416C8CB3F00FEA686 /* BasicLanguage.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014AD2170B9459009CB22C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localization/en.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014AD4170B948A009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localization/de.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014AD5170B94A1009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Localization/fr.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014AD6170B94A9009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = Localization/nb.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D014AD7170B94B6009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = Localization/pt.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
 		8D576316048677EA00EA77CD /* BragSpam.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BragSpam.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,7 +102,7 @@
 		4CD4026116C8CB2400FEA686 /* Language Files */ = {
 			isa = PBXGroup;
 			children = (
-				4CD4026416C8CB3F00FEA686 /* BasicLanguage.strings */,
+				5D014AD1170B9459009CB22C /* BasicLanguage.strings */,
 			);
 			name = "Language Files";
 			sourceTree = "<group>";
@@ -149,6 +153,11 @@
 				Japanese,
 				French,
 				German,
+				en,
+				de,
+				fr,
+				nb,
+				pt,
 			);
 			mainGroup = 089C166AFE841209C02AAC07 /* BragSpam */;
 			projectDirPath = "";
@@ -164,7 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD4026516C8CB3F00FEA686 /* BasicLanguage.strings in Resources */,
+				5D014AD3170B9459009CB22C /* BasicLanguage.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +189,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D014AD1170B9459009CB22C /* BasicLanguage.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D014AD2170B9459009CB22C /* en */,
+				5D014AD4170B948A009CB22C /* de */,
+				5D014AD5170B94A1009CB22C /* fr */,
+				5D014AD6170B94A9009CB22C /* nb */,
+				5D014AD7170B94B6009CB22C /* pt */,
+			);
+			name = BasicLanguage.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB911B08733D790010E9CD /* Debug */ = {

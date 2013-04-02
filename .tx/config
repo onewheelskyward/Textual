@@ -134,9 +134,8 @@ source_lang = en
 type = STRINGS
 
 [textual.BragSpam]
-source_file = Resources/Plugins/Brag Spam/BasicLanguage.strings
-file_filter = Resources/Plugins/Brag Spam/<lang>.lproj/BasicLanguage.strings
-trans.no = Resources/Plugins/Brag Spam/nb.lproj/BasicLanguage.strings
+file_filter = Resources/Plugins/Brag Spam/Localization/<lang>.lproj/BasicLanguage.strings
+trans.no = Resources/Plugins/Brag Spam/Localization/nb.lproj/BasicLanguage.strings
 source_lang = en
 type = STRINGS
 
