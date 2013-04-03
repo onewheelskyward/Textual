@@ -380,7 +380,7 @@ wGw</bytes>
 						<object class="NSTextFieldCell" key="NSCell" id="475589166">
 							<int key="NSCellFlags">68157504</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">Link Prefix:</string>
+							<string key="NSContents">Link-Präfix:</string>
 							<object class="NSFont" key="NSSupport" id="996739491">
 								<string key="NSName">LucidaGrande</string>
 								<double key="NSSize">13</double>
@@ -445,7 +445,7 @@ wGw</bytes>
 						<object class="NSButtonCell" key="NSCell" id="725278570">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">268435456</int>
-							<string key="NSContents">Enable parser.</string>
+							<string key="NSContents">Aktivier Parser.</string>
 							<reference key="NSSupport" ref="996739491"/>
 							<string key="NSCellIdentifier">_NS:9</string>
 							<reference key="NSControlView" ref="895292163"/>

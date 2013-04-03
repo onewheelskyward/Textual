@@ -91,7 +91,7 @@
 						<object class="NSTextFieldCell" key="NSCell" id="303069930">
 							<int key="NSCellFlags">68157504</int>
 							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">Select each item to hide from the               command:</string>
+							<string key="NSContents">Wähle die Punkte, die du beim Befehl verstecken willst:</string>
 							<object class="NSFont" key="NSSupport" id="859508960">
 								<string key="NSName">LucidaGrande</string>
 								<double key="NSSize">12</double>
@@ -114,7 +114,7 @@
 						<object class="NSButtonCell" key="NSCell" id="711987787">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">268435456</int>
-							<string key="NSContents">Operating System Version Information</string>
+							<string key="NSContents">Betriebssystem-Version Information</string>
 							<reference key="NSSupport" ref="859508960"/>
 							<string key="NSCellIdentifier">_NS:9</string>
 							<reference key="NSControlView" ref="154432916"/>
@@ -145,7 +145,7 @@
 						<object class="NSButtonCell" key="NSCell" id="156867347">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">268435456</int>
-							<string key="NSContents">System Load Average</string>
+							<string key="NSContents">System Auslastung Durchschnitt</string>
 							<reference key="NSSupport" ref="859508960"/>
 							<string key="NSCellIdentifier">_NS:9</string>
 							<reference key="NSControlView" ref="269921536"/>
@@ -171,7 +171,7 @@
 						<object class="NSButtonCell" key="NSCell" id="956072189">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">268435456</int>
-							<string key="NSContents">Active Display Screen Resolution</string>
+							<string key="NSContents">Aktiver Bildschirm Auflösung</string>
 							<reference key="NSSupport" ref="859508960"/>
 							<string key="NSCellIdentifier">_NS:9</string>
 							<reference key="NSControlView" ref="957223694"/>
@@ -197,7 +197,7 @@
 						<object class="NSButtonCell" key="NSCell" id="313735430">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">268435456</int>
-							<string key="NSContents">Graphics Card Model Name</string>
+							<string key="NSContents">Grafikkarte Model Name</string>
 							<reference key="NSSupport" ref="859508960"/>
 							<string key="NSCellIdentifier">_NS:9</string>
 							<reference key="NSControlView" ref="236472729"/>
@@ -223,7 +223,7 @@
 						<object class="NSButtonCell" key="NSCell" id="106209334">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">268435456</int>
-							<string key="NSContents">Boot Volume Disk Information</string>
+							<string key="NSContents">Startvolume Festplatten-Information</string>
 							<reference key="NSSupport" ref="859508960"/>
 							<string key="NSCellIdentifier">_NS:9</string>
 							<reference key="NSControlView" ref="523757569"/>
@@ -249,7 +249,7 @@
 						<object class="NSButtonCell" key="NSCell" id="1033232301">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">268435456</int>
-							<string key="NSContents">Operating System Uptime</string>
+							<string key="NSContents">Betriebssystem Laufzeit</string>
 							<reference key="NSSupport" ref="859508960"/>
 							<string key="NSCellIdentifier">_NS:9</string>
 							<reference key="NSControlView" ref="959158847"/>
@@ -275,7 +275,7 @@
 						<object class="NSButtonCell" key="NSCell" id="787868197">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">268435456</int>
-							<string key="NSContents">System Memory Total Allocation</string>
+							<string key="NSContents">System Speicher Gesamt Zuteilung</string>
 							<reference key="NSSupport" ref="859508960"/>
 							<string key="NSCellIdentifier">_NS:9</string>
 							<reference key="NSControlView" ref="335658649"/>
@@ -301,7 +301,7 @@
 						<object class="NSButtonCell" key="NSCell" id="345307004">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">268435456</int>
-							<string key="NSContents">CPU Model &amp; Associated Information</string>
+							<string key="NSContents">CPU Model &amp; Zugehörige Information</string>
 							<reference key="NSSupport" ref="859508960"/>
 							<string key="NSCellIdentifier">_NS:9</string>
 							<reference key="NSControlView" ref="836615057"/>
