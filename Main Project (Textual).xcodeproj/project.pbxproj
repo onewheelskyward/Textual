@@ -717,42 +717,42 @@
 		4CDDF34A1678C5DF00FE8684 /* encryptionLockIconLight@2x.tif in Resources */ = {isa = PBXBuildFile; fileRef = 4CDDF3461678C5DF00FE8684 /* encryptionLockIconLight@2x.tif */; };
 		4CF2D17516C4D98800B996F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C46CCC11580469E00846B64 /* SystemConfiguration.framework */; };
 		4CF8B41016E631EF00F2A68F /* birthdayIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4CF8B40F16E631EF00F2A68F /* birthdayIcon.icns */; };
-		5D014A61170B9132009CB22C /* TDCAboutPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A3F170B9132009CB22C /* TDCAboutPanel.xib */; };
-		5D014A62170B9132009CB22C /* TDCAboutPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A3F170B9132009CB22C /* TDCAboutPanel.xib */; };
-		5D014A63170B9132009CB22C /* TDCAddressBookSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A41170B9132009CB22C /* TDCAddressBookSheet.xib */; };
-		5D014A64170B9132009CB22C /* TDCAddressBookSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A41170B9132009CB22C /* TDCAddressBookSheet.xib */; };
-		5D014A65170B9132009CB22C /* TDChanBanExceptionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A43170B9132009CB22C /* TDChanBanExceptionSheet.xib */; };
-		5D014A66170B9132009CB22C /* TDChanBanExceptionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A43170B9132009CB22C /* TDChanBanExceptionSheet.xib */; };
-		5D014A67170B9132009CB22C /* TDChanBanSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A45170B9132009CB22C /* TDChanBanSheet.xib */; };
-		5D014A68170B9132009CB22C /* TDChanBanSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A45170B9132009CB22C /* TDChanBanSheet.xib */; };
-		5D014A69170B9132009CB22C /* TDChanInviteExceptionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A47170B9132009CB22C /* TDChanInviteExceptionSheet.xib */; };
-		5D014A6A170B9132009CB22C /* TDChanInviteExceptionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A47170B9132009CB22C /* TDChanInviteExceptionSheet.xib */; };
-		5D014A6B170B9132009CB22C /* TDChannelSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A49170B9132009CB22C /* TDChannelSheet.xib */; };
-		5D014A6C170B9132009CB22C /* TDChannelSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A49170B9132009CB22C /* TDChannelSheet.xib */; };
-		5D014A6D170B9132009CB22C /* TDCHighlightSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A4B170B9132009CB22C /* TDCHighlightSheet.xib */; };
-		5D014A6E170B9132009CB22C /* TDCHighlightSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A4B170B9132009CB22C /* TDCHighlightSheet.xib */; };
-		5D014A6F170B9132009CB22C /* TDCInviteSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A4D170B9132009CB22C /* TDCInviteSheet.xib */; };
-		5D014A70170B9132009CB22C /* TDCInviteSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A4D170B9132009CB22C /* TDCInviteSheet.xib */; };
-		5D014A71170B9132009CB22C /* TDCListDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A4F170B9132009CB22C /* TDCListDialog.xib */; };
-		5D014A72170B9132009CB22C /* TDCListDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A4F170B9132009CB22C /* TDCListDialog.xib */; };
-		5D014A73170B9132009CB22C /* TDCModeSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A51170B9132009CB22C /* TDCModeSheet.xib */; };
-		5D014A74170B9132009CB22C /* TDCModeSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A51170B9132009CB22C /* TDCModeSheet.xib */; };
-		5D014A75170B9132009CB22C /* TDCNickSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A53170B9132009CB22C /* TDCNickSheet.xib */; };
-		5D014A76170B9132009CB22C /* TDCNickSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A53170B9132009CB22C /* TDCNickSheet.xib */; };
-		5D014A77170B9132009CB22C /* TDCPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A55170B9132009CB22C /* TDCPreferences.xib */; };
-		5D014A78170B9132009CB22C /* TDCPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A55170B9132009CB22C /* TDCPreferences.xib */; };
-		5D014A79170B9132009CB22C /* TDCServerSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A57170B9132009CB22C /* TDCServerSheet.xib */; };
-		5D014A7A170B9132009CB22C /* TDCServerSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A57170B9132009CB22C /* TDCServerSheet.xib */; };
-		5D014A7B170B9132009CB22C /* TDCTopicSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A59170B9132009CB22C /* TDCTopicSheet.xib */; };
-		5D014A7C170B9132009CB22C /* TDCTopicSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A59170B9132009CB22C /* TDCTopicSheet.xib */; };
-		5D014A7D170B9132009CB22C /* TDCWelcomeSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A5B170B9132009CB22C /* TDCWelcomeSheet.xib */; };
-		5D014A7E170B9132009CB22C /* TDCWelcomeSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A5B170B9132009CB22C /* TDCWelcomeSheet.xib */; };
-		5D014A7F170B9132009CB22C /* TVCInputPromptDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A5D170B9132009CB22C /* TVCInputPromptDialog.xib */; };
-		5D014A80170B9132009CB22C /* TVCInputPromptDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A5D170B9132009CB22C /* TVCInputPromptDialog.xib */; };
-		5D014A81170B9132009CB22C /* TXCMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A5F170B9132009CB22C /* TXCMainMenu.xib */; };
-		5D014A82170B9132009CB22C /* TXCMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D014A5F170B9132009CB22C /* TXCMainMenu.xib */; };
-		5D014B16170BA68A009CB22C /* BasicLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D014B14170BA68A009CB22C /* BasicLanguage.strings */; };
-		5D014B17170BA68A009CB22C /* BasicLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D014B14170BA68A009CB22C /* BasicLanguage.strings */; };
+		5D5542BF170BAAF600081A09 /* TDCAboutPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D55429D170BAAF600081A09 /* TDCAboutPanel.xib */; };
+		5D5542C0170BAAF600081A09 /* TDCAboutPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D55429D170BAAF600081A09 /* TDCAboutPanel.xib */; };
+		5D5542C1170BAAF600081A09 /* TDCAddressBookSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D55429F170BAAF600081A09 /* TDCAddressBookSheet.xib */; };
+		5D5542C2170BAAF600081A09 /* TDCAddressBookSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D55429F170BAAF600081A09 /* TDCAddressBookSheet.xib */; };
+		5D5542C3170BAAF600081A09 /* TDChanBanExceptionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542A1170BAAF600081A09 /* TDChanBanExceptionSheet.xib */; };
+		5D5542C4170BAAF600081A09 /* TDChanBanExceptionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542A1170BAAF600081A09 /* TDChanBanExceptionSheet.xib */; };
+		5D5542C5170BAAF600081A09 /* TDChanBanSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542A3170BAAF600081A09 /* TDChanBanSheet.xib */; };
+		5D5542C6170BAAF600081A09 /* TDChanBanSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542A3170BAAF600081A09 /* TDChanBanSheet.xib */; };
+		5D5542C7170BAAF600081A09 /* TDChanInviteExceptionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542A5170BAAF600081A09 /* TDChanInviteExceptionSheet.xib */; };
+		5D5542C8170BAAF600081A09 /* TDChanInviteExceptionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542A5170BAAF600081A09 /* TDChanInviteExceptionSheet.xib */; };
+		5D5542C9170BAAF600081A09 /* TDChannelSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542A7170BAAF600081A09 /* TDChannelSheet.xib */; };
+		5D5542CA170BAAF600081A09 /* TDChannelSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542A7170BAAF600081A09 /* TDChannelSheet.xib */; };
+		5D5542CB170BAAF600081A09 /* TDCHighlightSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542A9170BAAF600081A09 /* TDCHighlightSheet.xib */; };
+		5D5542CC170BAAF600081A09 /* TDCHighlightSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542A9170BAAF600081A09 /* TDCHighlightSheet.xib */; };
+		5D5542CD170BAAF600081A09 /* TDCInviteSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542AB170BAAF600081A09 /* TDCInviteSheet.xib */; };
+		5D5542CE170BAAF600081A09 /* TDCInviteSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542AB170BAAF600081A09 /* TDCInviteSheet.xib */; };
+		5D5542CF170BAAF600081A09 /* TDCListDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542AD170BAAF600081A09 /* TDCListDialog.xib */; };
+		5D5542D0170BAAF600081A09 /* TDCListDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542AD170BAAF600081A09 /* TDCListDialog.xib */; };
+		5D5542D1170BAAF600081A09 /* TDCModeSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542AF170BAAF600081A09 /* TDCModeSheet.xib */; };
+		5D5542D2170BAAF600081A09 /* TDCModeSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542AF170BAAF600081A09 /* TDCModeSheet.xib */; };
+		5D5542D3170BAAF600081A09 /* TDCNickSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542B1170BAAF600081A09 /* TDCNickSheet.xib */; };
+		5D5542D4170BAAF600081A09 /* TDCNickSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542B1170BAAF600081A09 /* TDCNickSheet.xib */; };
+		5D5542D5170BAAF600081A09 /* TDCPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542B3170BAAF600081A09 /* TDCPreferences.xib */; };
+		5D5542D6170BAAF600081A09 /* TDCPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542B3170BAAF600081A09 /* TDCPreferences.xib */; };
+		5D5542D7170BAAF600081A09 /* TDCServerSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542B5170BAAF600081A09 /* TDCServerSheet.xib */; };
+		5D5542D8170BAAF600081A09 /* TDCServerSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542B5170BAAF600081A09 /* TDCServerSheet.xib */; };
+		5D5542D9170BAAF600081A09 /* TDCTopicSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542B7170BAAF600081A09 /* TDCTopicSheet.xib */; };
+		5D5542DA170BAAF600081A09 /* TDCTopicSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542B7170BAAF600081A09 /* TDCTopicSheet.xib */; };
+		5D5542DB170BAAF600081A09 /* TDCWelcomeSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542B9170BAAF600081A09 /* TDCWelcomeSheet.xib */; };
+		5D5542DC170BAAF600081A09 /* TDCWelcomeSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542B9170BAAF600081A09 /* TDCWelcomeSheet.xib */; };
+		5D5542DD170BAAF600081A09 /* TVCInputPromptDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542BB170BAAF600081A09 /* TVCInputPromptDialog.xib */; };
+		5D5542DE170BAAF600081A09 /* TVCInputPromptDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542BB170BAAF600081A09 /* TVCInputPromptDialog.xib */; };
+		5D5542DF170BAAF600081A09 /* TXCMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542BD170BAAF600081A09 /* TXCMainMenu.xib */; };
+		5D5542E0170BAAF600081A09 /* TXCMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5542BD170BAAF600081A09 /* TXCMainMenu.xib */; };
+		5D554327170BAB6B00081A09 /* BasicLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D554325170BAB6B00081A09 /* BasicLanguage.strings */; };
+		5D554328170BAB6B00081A09 /* BasicLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D554325170BAB6B00081A09 /* BasicLanguage.strings */; };
 		5D9B8EA31709FF1500919CB0 /* BuildConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D9B8EA21709FF1500919CB0 /* BuildConfig.h */; };
 		5D9B8EA41709FF1500919CB0 /* BuildConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D9B8EA21709FF1500919CB0 /* BuildConfig.h */; };
 /* End PBXBuildFile section */
@@ -1276,96 +1276,96 @@
 		4CDDF3451678C5DF00FE8684 /* encryptionLockIconLight.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = encryptionLockIconLight.tif; sourceTree = "<group>"; };
 		4CDDF3461678C5DF00FE8684 /* encryptionLockIconLight@2x.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "encryptionLockIconLight@2x.tif"; sourceTree = "<group>"; };
 		4CF8B40F16E631EF00F2A68F /* birthdayIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = birthdayIcon.icns; path = Resources/Images/Application/birthdayIcon.icns; sourceTree = SOURCE_ROOT; };
-		5D014A40170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCAboutPanel.xib; sourceTree = SOURCE_ROOT; };
-		5D014A42170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCAddressBookSheet.xib; sourceTree = SOURCE_ROOT; };
-		5D014A44170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDChanBanExceptionSheet.xib; sourceTree = SOURCE_ROOT; };
-		5D014A46170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDChanBanSheet.xib; sourceTree = SOURCE_ROOT; };
-		5D014A48170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDChanInviteExceptionSheet.xib; sourceTree = SOURCE_ROOT; };
-		5D014A4A170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDChannelSheet.xib; sourceTree = SOURCE_ROOT; };
-		5D014A4C170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCHighlightSheet.xib; sourceTree = SOURCE_ROOT; };
-		5D014A4E170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCInviteSheet.xib; sourceTree = SOURCE_ROOT; };
-		5D014A50170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCListDialog.xib; sourceTree = SOURCE_ROOT; };
-		5D014A52170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCModeSheet.xib; sourceTree = SOURCE_ROOT; };
-		5D014A54170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCNickSheet.xib; sourceTree = SOURCE_ROOT; };
-		5D014A56170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCPreferences.xib; sourceTree = SOURCE_ROOT; };
-		5D014A58170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCServerSheet.xib; sourceTree = SOURCE_ROOT; };
-		5D014A5A170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCTopicSheet.xib; sourceTree = SOURCE_ROOT; };
-		5D014A5C170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCWelcomeSheet.xib; sourceTree = SOURCE_ROOT; };
-		5D014A5E170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TVCInputPromptDialog.xib; sourceTree = SOURCE_ROOT; };
-		5D014A60170B9132009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TXCMainMenu.xib; sourceTree = SOURCE_ROOT; };
-		5D014A83170B913A009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCAboutPanel.xib; sourceTree = "<group>"; };
-		5D014A84170B913C009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCAboutPanel.xib; sourceTree = "<group>"; };
-		5D014A85170B913E009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCAboutPanel.xib; sourceTree = "<group>"; };
-		5D014A86170B9141009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCAboutPanel.xib; sourceTree = "<group>"; };
-		5D014A87170B9145009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCAddressBookSheet.xib; sourceTree = "<group>"; };
-		5D014A88170B9148009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCAddressBookSheet.xib; sourceTree = "<group>"; };
-		5D014A89170B9149009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCAddressBookSheet.xib; sourceTree = "<group>"; };
-		5D014A8A170B914B009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCAddressBookSheet.xib; sourceTree = "<group>"; };
-		5D014A8B170B914F009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDChanBanExceptionSheet.xib; sourceTree = "<group>"; };
-		5D014A8C170B9151009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDChanBanExceptionSheet.xib; sourceTree = "<group>"; };
-		5D014A8D170B9153009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDChanBanExceptionSheet.xib; sourceTree = "<group>"; };
-		5D014A8E170B9155009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDChanBanExceptionSheet.xib; sourceTree = "<group>"; };
-		5D014A8F170B9158009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDChanBanSheet.xib; sourceTree = "<group>"; };
-		5D014A90170B915A009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDChanBanSheet.xib; sourceTree = "<group>"; };
-		5D014A91170B915C009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDChanBanSheet.xib; sourceTree = "<group>"; };
-		5D014A92170B915F009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDChanBanSheet.xib; sourceTree = "<group>"; };
-		5D014A93170B9164009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDChanInviteExceptionSheet.xib; sourceTree = "<group>"; };
-		5D014A94170B9166009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDChanInviteExceptionSheet.xib; sourceTree = "<group>"; };
-		5D014A95170B9168009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDChanInviteExceptionSheet.xib; sourceTree = "<group>"; };
-		5D014A96170B9169009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDChanInviteExceptionSheet.xib; sourceTree = "<group>"; };
-		5D014A97170B916E009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDChannelSheet.xib; sourceTree = "<group>"; };
-		5D014A98170B916F009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDChannelSheet.xib; sourceTree = "<group>"; };
-		5D014A99170B9171009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDChannelSheet.xib; sourceTree = "<group>"; };
-		5D014A9A170B9172009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDChannelSheet.xib; sourceTree = "<group>"; };
-		5D014A9B170B9176009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCHighlightSheet.xib; sourceTree = "<group>"; };
-		5D014A9C170B9177009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCHighlightSheet.xib; sourceTree = "<group>"; };
-		5D014A9D170B9179009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCHighlightSheet.xib; sourceTree = "<group>"; };
-		5D014A9E170B917A009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCHighlightSheet.xib; sourceTree = "<group>"; };
-		5D014A9F170B917E009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCInviteSheet.xib; sourceTree = "<group>"; };
-		5D014AA0170B917F009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCInviteSheet.xib; sourceTree = "<group>"; };
-		5D014AA1170B9180009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCInviteSheet.xib; sourceTree = "<group>"; };
-		5D014AA2170B9182009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCInviteSheet.xib; sourceTree = "<group>"; };
-		5D014AA3170B9185009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCListDialog.xib; sourceTree = "<group>"; };
-		5D014AA4170B9186009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCListDialog.xib; sourceTree = "<group>"; };
-		5D014AA5170B9188009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCListDialog.xib; sourceTree = "<group>"; };
-		5D014AA6170B9189009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCListDialog.xib; sourceTree = "<group>"; };
-		5D014AA7170B918D009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCModeSheet.xib; sourceTree = "<group>"; };
-		5D014AA8170B918E009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCModeSheet.xib; sourceTree = "<group>"; };
-		5D014AA9170B9190009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCModeSheet.xib; sourceTree = "<group>"; };
-		5D014AAA170B9191009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCModeSheet.xib; sourceTree = "<group>"; };
-		5D014AAB170B91A9009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCNickSheet.xib; sourceTree = "<group>"; };
-		5D014AAC170B91AA009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCNickSheet.xib; sourceTree = "<group>"; };
-		5D014AAD170B91AC009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCNickSheet.xib; sourceTree = "<group>"; };
-		5D014AAE170B91AD009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCNickSheet.xib; sourceTree = "<group>"; };
-		5D014AAF170B91B1009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCPreferences.xib; sourceTree = "<group>"; };
-		5D014AB0170B91B2009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCPreferences.xib; sourceTree = "<group>"; };
-		5D014AB1170B91B4009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCPreferences.xib; sourceTree = "<group>"; };
-		5D014AB2170B91B5009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCPreferences.xib; sourceTree = "<group>"; };
-		5D014AB3170B91BA009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCServerSheet.xib; sourceTree = "<group>"; };
-		5D014AB4170B91BB009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCServerSheet.xib; sourceTree = "<group>"; };
-		5D014AB5170B91BC009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCServerSheet.xib; sourceTree = "<group>"; };
-		5D014AB6170B91BE009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCServerSheet.xib; sourceTree = "<group>"; };
-		5D014AB7170B91C2009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCTopicSheet.xib; sourceTree = "<group>"; };
-		5D014AB8170B91C3009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCTopicSheet.xib; sourceTree = "<group>"; };
-		5D014AB9170B91C5009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCTopicSheet.xib; sourceTree = "<group>"; };
-		5D014ABA170B91C6009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCTopicSheet.xib; sourceTree = "<group>"; };
-		5D014ABB170B91CA009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCWelcomeSheet.xib; sourceTree = "<group>"; };
-		5D014ABC170B91CC009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCWelcomeSheet.xib; sourceTree = "<group>"; };
-		5D014ABD170B91CE009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCWelcomeSheet.xib; sourceTree = "<group>"; };
-		5D014ABE170B91CF009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCWelcomeSheet.xib; sourceTree = "<group>"; };
-		5D014ABF170B91D2009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TVCInputPromptDialog.xib; sourceTree = "<group>"; };
-		5D014AC0170B91D4009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TVCInputPromptDialog.xib; sourceTree = "<group>"; };
-		5D014AC1170B91D6009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TVCInputPromptDialog.xib; sourceTree = "<group>"; };
-		5D014AC2170B91D7009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TVCInputPromptDialog.xib; sourceTree = "<group>"; };
-		5D014AC3170B91DD009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TXCMainMenu.xib; sourceTree = "<group>"; };
-		5D014AC4170B91DE009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TXCMainMenu.xib; sourceTree = "<group>"; };
-		5D014AC5170B91E0009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TXCMainMenu.xib; sourceTree = "<group>"; };
-		5D014AC6170B91E1009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TXCMainMenu.xib; sourceTree = "<group>"; };
-		5D014B15170BA68A009CB22C /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = Resources/Localization/English.lproj/BasicLanguage.strings; sourceTree = SOURCE_ROOT; };
-		5D014B18170BA68E009CB22C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Resources/Localization/de.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
-		5D014B19170BA690009CB22C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Resources/Localization/fr.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
-		5D014B1A170BA692009CB22C /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = Resources/Localization/nb.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
-		5D014B1B170BA694009CB22C /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = Resources/Localization/pt.lproj/BasicLanguage.strings; sourceTree = "<group>"; };
+		5D55429E170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCAboutPanel.xib; sourceTree = SOURCE_ROOT; };
+		5D5542A0170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCAddressBookSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542A2170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDChanBanExceptionSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542A4170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDChanBanSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542A6170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDChanInviteExceptionSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542A8170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDChannelSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542AA170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCHighlightSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542AC170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCInviteSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542AE170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCListDialog.xib; sourceTree = SOURCE_ROOT; };
+		5D5542B0170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCModeSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542B2170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCNickSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542B4170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCPreferences.xib; sourceTree = SOURCE_ROOT; };
+		5D5542B6170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCServerSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542B8170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCTopicSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542BA170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TDCWelcomeSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542BC170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TVCInputPromptDialog.xib; sourceTree = SOURCE_ROOT; };
+		5D5542BE170BAAF600081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TXCMainMenu.xib; sourceTree = SOURCE_ROOT; };
+		5D5542E1170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCAboutPanel.xib; sourceTree = SOURCE_ROOT; };
+		5D5542E2170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCAddressBookSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542E3170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDChanBanExceptionSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542E4170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDChanBanSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542E5170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDChanInviteExceptionSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542E6170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDChannelSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542E7170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCHighlightSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542E8170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCInviteSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542E9170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCListDialog.xib; sourceTree = SOURCE_ROOT; };
+		5D5542EA170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCModeSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542EB170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCNickSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542EC170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCPreferences.xib; sourceTree = SOURCE_ROOT; };
+		5D5542ED170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCServerSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542EE170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCTopicSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542EF170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TDCWelcomeSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542F0170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TVCInputPromptDialog.xib; sourceTree = SOURCE_ROOT; };
+		5D5542F1170BAB0A00081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = Resources/Localization/de.lproj/TXCMainMenu.xib; sourceTree = SOURCE_ROOT; };
+		5D5542F2170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCAboutPanel.xib; sourceTree = SOURCE_ROOT; };
+		5D5542F3170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCAddressBookSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542F4170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDChanBanExceptionSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542F5170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDChanBanSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542F6170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDChanInviteExceptionSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542F7170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDChannelSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542F8170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCHighlightSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542F9170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCInviteSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542FA170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCListDialog.xib; sourceTree = SOURCE_ROOT; };
+		5D5542FB170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCModeSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542FC170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCNickSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542FD170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCPreferences.xib; sourceTree = SOURCE_ROOT; };
+		5D5542FE170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCServerSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D5542FF170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCTopicSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554300170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TDCWelcomeSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554301170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TVCInputPromptDialog.xib; sourceTree = SOURCE_ROOT; };
+		5D554302170BAB1600081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = Resources/Localization/fr.lproj/TXCMainMenu.xib; sourceTree = SOURCE_ROOT; };
+		5D554303170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCAboutPanel.xib; sourceTree = SOURCE_ROOT; };
+		5D554304170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCAddressBookSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554305170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDChanBanExceptionSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554306170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDChanBanSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554307170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDChanInviteExceptionSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554308170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDChannelSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554309170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCHighlightSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D55430A170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCInviteSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D55430B170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCListDialog.xib; sourceTree = SOURCE_ROOT; };
+		5D55430C170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCModeSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D55430D170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCNickSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D55430E170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCPreferences.xib; sourceTree = SOURCE_ROOT; };
+		5D55430F170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCServerSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554310170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCTopicSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554311170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TDCWelcomeSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554312170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TVCInputPromptDialog.xib; sourceTree = SOURCE_ROOT; };
+		5D554313170BAB2200081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = nb; path = Resources/Localization/nb.lproj/TXCMainMenu.xib; sourceTree = SOURCE_ROOT; };
+		5D554314170BAB2D00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCAboutPanel.xib; sourceTree = SOURCE_ROOT; };
+		5D554315170BAB2D00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCAddressBookSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554316170BAB2D00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDChanBanExceptionSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554317170BAB2D00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDChanBanSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554318170BAB2D00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDChanInviteExceptionSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554319170BAB2D00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDChannelSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D55431A170BAB2D00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCHighlightSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D55431B170BAB2D00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCInviteSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D55431C170BAB2D00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCListDialog.xib; sourceTree = SOURCE_ROOT; };
+		5D55431D170BAB2D00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCModeSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D55431E170BAB2D00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCNickSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D55431F170BAB2D00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCPreferences.xib; sourceTree = SOURCE_ROOT; };
+		5D554320170BAB2E00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCServerSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554321170BAB2E00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCTopicSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554322170BAB2E00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TDCWelcomeSheet.xib; sourceTree = SOURCE_ROOT; };
+		5D554323170BAB2E00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TVCInputPromptDialog.xib; sourceTree = SOURCE_ROOT; };
+		5D554324170BAB2E00081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = Resources/Localization/pt.lproj/TXCMainMenu.xib; sourceTree = SOURCE_ROOT; };
+		5D554326170BAB6B00081A09 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = Resources/Localization/English.lproj/BasicLanguage.strings; sourceTree = SOURCE_ROOT; };
+		5D554329170BAB7400081A09 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Resources/Localization/de.lproj/BasicLanguage.strings; sourceTree = SOURCE_ROOT; };
+		5D55432A170BAB8000081A09 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Resources/Localization/fr.lproj/BasicLanguage.strings; sourceTree = SOURCE_ROOT; };
+		5D55432B170BAB8A00081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = Resources/Localization/nb.lproj/BasicLanguage.strings; sourceTree = SOURCE_ROOT; };
+		5D55432C170BAB9300081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = Resources/Localization/pt.lproj/BasicLanguage.strings; sourceTree = SOURCE_ROOT; };
 		5D9B8EA21709FF1500919CB0 /* BuildConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuildConfig.h; path = Resources/BuildConfig.h; sourceTree = SOURCE_ROOT; };
 		5D9B8EB6170A0EB400919CB0 /* BuildFrameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = BuildFrameworks.sh; path = "Main Project (Textual).xcodeproj/BuildFrameworks.sh"; sourceTree = SOURCE_ROOT; };
 		5D9B8EB7170A0EB400919CB0 /* CleanUpResources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = CleanUpResources.sh; path = "Main Project (Textual).xcodeproj/CleanUpResources.sh"; sourceTree = SOURCE_ROOT; };
@@ -1514,23 +1514,23 @@
 		4C46CC5A158042B600846B64 /* User Interface */ = {
 			isa = PBXGroup;
 			children = (
-				5D014A3F170B9132009CB22C /* TDCAboutPanel.xib */,
-				5D014A41170B9132009CB22C /* TDCAddressBookSheet.xib */,
-				5D014A43170B9132009CB22C /* TDChanBanExceptionSheet.xib */,
-				5D014A45170B9132009CB22C /* TDChanBanSheet.xib */,
-				5D014A47170B9132009CB22C /* TDChanInviteExceptionSheet.xib */,
-				5D014A49170B9132009CB22C /* TDChannelSheet.xib */,
-				5D014A4B170B9132009CB22C /* TDCHighlightSheet.xib */,
-				5D014A4D170B9132009CB22C /* TDCInviteSheet.xib */,
-				5D014A4F170B9132009CB22C /* TDCListDialog.xib */,
-				5D014A51170B9132009CB22C /* TDCModeSheet.xib */,
-				5D014A53170B9132009CB22C /* TDCNickSheet.xib */,
-				5D014A55170B9132009CB22C /* TDCPreferences.xib */,
-				5D014A57170B9132009CB22C /* TDCServerSheet.xib */,
-				5D014A59170B9132009CB22C /* TDCTopicSheet.xib */,
-				5D014A5B170B9132009CB22C /* TDCWelcomeSheet.xib */,
-				5D014A5D170B9132009CB22C /* TVCInputPromptDialog.xib */,
-				5D014A5F170B9132009CB22C /* TXCMainMenu.xib */,
+				5D55429D170BAAF600081A09 /* TDCAboutPanel.xib */,
+				5D55429F170BAAF600081A09 /* TDCAddressBookSheet.xib */,
+				5D5542A1170BAAF600081A09 /* TDChanBanExceptionSheet.xib */,
+				5D5542A3170BAAF600081A09 /* TDChanBanSheet.xib */,
+				5D5542A5170BAAF600081A09 /* TDChanInviteExceptionSheet.xib */,
+				5D5542A7170BAAF600081A09 /* TDChannelSheet.xib */,
+				5D5542A9170BAAF600081A09 /* TDCHighlightSheet.xib */,
+				5D5542AB170BAAF600081A09 /* TDCInviteSheet.xib */,
+				5D5542AD170BAAF600081A09 /* TDCListDialog.xib */,
+				5D5542AF170BAAF600081A09 /* TDCModeSheet.xib */,
+				5D5542B1170BAAF600081A09 /* TDCNickSheet.xib */,
+				5D5542B3170BAAF600081A09 /* TDCPreferences.xib */,
+				5D5542B5170BAAF600081A09 /* TDCServerSheet.xib */,
+				5D5542B7170BAAF600081A09 /* TDCTopicSheet.xib */,
+				5D5542B9170BAAF600081A09 /* TDCWelcomeSheet.xib */,
+				5D5542BB170BAAF600081A09 /* TVCInputPromptDialog.xib */,
+				5D5542BD170BAAF600081A09 /* TXCMainMenu.xib */,
 			);
 			name = "User Interface";
 			sourceTree = "<group>";
@@ -1641,7 +1641,7 @@
 		4C46CC9E1580434E00846B64 /* Language */ = {
 			isa = PBXGroup;
 			children = (
-				5D014B14170BA68A009CB22C /* BasicLanguage.strings */,
+				5D554325170BAB6B00081A09 /* BasicLanguage.strings */,
 			);
 			name = Language;
 			sourceTree = "<group>";
@@ -2718,6 +2718,7 @@
 				fr,
 				no,
 				pt,
+				nb,
 			);
 			mainGroup = 4C1DC5471580420500A47BC9;
 			productRefGroup = 4C1DC5531580420500A47BC9 /* Products */;
@@ -2857,24 +2858,24 @@
 				4CDDF3491678C5DF00FE8684 /* encryptionLockIconLight.tif in Resources */,
 				4CDDF34A1678C5DF00FE8684 /* encryptionLockIconLight@2x.tif in Resources */,
 				4CF8B41016E631EF00F2A68F /* birthdayIcon.icns in Resources */,
-				5D014A61170B9132009CB22C /* TDCAboutPanel.xib in Resources */,
-				5D014A63170B9132009CB22C /* TDCAddressBookSheet.xib in Resources */,
-				5D014A65170B9132009CB22C /* TDChanBanExceptionSheet.xib in Resources */,
-				5D014A67170B9132009CB22C /* TDChanBanSheet.xib in Resources */,
-				5D014A69170B9132009CB22C /* TDChanInviteExceptionSheet.xib in Resources */,
-				5D014A6B170B9132009CB22C /* TDChannelSheet.xib in Resources */,
-				5D014A6D170B9132009CB22C /* TDCHighlightSheet.xib in Resources */,
-				5D014A6F170B9132009CB22C /* TDCInviteSheet.xib in Resources */,
-				5D014A71170B9132009CB22C /* TDCListDialog.xib in Resources */,
-				5D014A73170B9132009CB22C /* TDCModeSheet.xib in Resources */,
-				5D014A75170B9132009CB22C /* TDCNickSheet.xib in Resources */,
-				5D014A77170B9132009CB22C /* TDCPreferences.xib in Resources */,
-				5D014A79170B9132009CB22C /* TDCServerSheet.xib in Resources */,
-				5D014A7B170B9132009CB22C /* TDCTopicSheet.xib in Resources */,
-				5D014A7D170B9132009CB22C /* TDCWelcomeSheet.xib in Resources */,
-				5D014A7F170B9132009CB22C /* TVCInputPromptDialog.xib in Resources */,
-				5D014A81170B9132009CB22C /* TXCMainMenu.xib in Resources */,
-				5D014B16170BA68A009CB22C /* BasicLanguage.strings in Resources */,
+				5D5542BF170BAAF600081A09 /* TDCAboutPanel.xib in Resources */,
+				5D5542C1170BAAF600081A09 /* TDCAddressBookSheet.xib in Resources */,
+				5D5542C3170BAAF600081A09 /* TDChanBanExceptionSheet.xib in Resources */,
+				5D5542C5170BAAF600081A09 /* TDChanBanSheet.xib in Resources */,
+				5D5542C7170BAAF600081A09 /* TDChanInviteExceptionSheet.xib in Resources */,
+				5D5542C9170BAAF600081A09 /* TDChannelSheet.xib in Resources */,
+				5D5542CB170BAAF600081A09 /* TDCHighlightSheet.xib in Resources */,
+				5D5542CD170BAAF600081A09 /* TDCInviteSheet.xib in Resources */,
+				5D5542CF170BAAF600081A09 /* TDCListDialog.xib in Resources */,
+				5D5542D1170BAAF600081A09 /* TDCModeSheet.xib in Resources */,
+				5D5542D3170BAAF600081A09 /* TDCNickSheet.xib in Resources */,
+				5D5542D5170BAAF600081A09 /* TDCPreferences.xib in Resources */,
+				5D5542D7170BAAF600081A09 /* TDCServerSheet.xib in Resources */,
+				5D5542D9170BAAF600081A09 /* TDCTopicSheet.xib in Resources */,
+				5D5542DB170BAAF600081A09 /* TDCWelcomeSheet.xib in Resources */,
+				5D5542DD170BAAF600081A09 /* TVCInputPromptDialog.xib in Resources */,
+				5D5542DF170BAAF600081A09 /* TXCMainMenu.xib in Resources */,
+				5D554327170BAB6B00081A09 /* BasicLanguage.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2952,24 +2953,24 @@
 				4C5BA3CF16F1302F00A96CA2 /* encryptionLockIconLight.tif in Resources */,
 				4C5BA3D016F1302F00A96CA2 /* encryptionLockIconLight@2x.tif in Resources */,
 				4C5BA3D116F1302F00A96CA2 /* birthdayIcon.icns in Resources */,
-				5D014A62170B9132009CB22C /* TDCAboutPanel.xib in Resources */,
-				5D014A64170B9132009CB22C /* TDCAddressBookSheet.xib in Resources */,
-				5D014A66170B9132009CB22C /* TDChanBanExceptionSheet.xib in Resources */,
-				5D014A68170B9132009CB22C /* TDChanBanSheet.xib in Resources */,
-				5D014A6A170B9132009CB22C /* TDChanInviteExceptionSheet.xib in Resources */,
-				5D014A6C170B9132009CB22C /* TDChannelSheet.xib in Resources */,
-				5D014A6E170B9132009CB22C /* TDCHighlightSheet.xib in Resources */,
-				5D014A70170B9132009CB22C /* TDCInviteSheet.xib in Resources */,
-				5D014A72170B9132009CB22C /* TDCListDialog.xib in Resources */,
-				5D014A74170B9132009CB22C /* TDCModeSheet.xib in Resources */,
-				5D014A76170B9132009CB22C /* TDCNickSheet.xib in Resources */,
-				5D014A78170B9132009CB22C /* TDCPreferences.xib in Resources */,
-				5D014A7A170B9132009CB22C /* TDCServerSheet.xib in Resources */,
-				5D014A7C170B9132009CB22C /* TDCTopicSheet.xib in Resources */,
-				5D014A7E170B9132009CB22C /* TDCWelcomeSheet.xib in Resources */,
-				5D014A80170B9132009CB22C /* TVCInputPromptDialog.xib in Resources */,
-				5D014A82170B9132009CB22C /* TXCMainMenu.xib in Resources */,
-				5D014B17170BA68A009CB22C /* BasicLanguage.strings in Resources */,
+				5D5542C0170BAAF600081A09 /* TDCAboutPanel.xib in Resources */,
+				5D5542C2170BAAF600081A09 /* TDCAddressBookSheet.xib in Resources */,
+				5D5542C4170BAAF600081A09 /* TDChanBanExceptionSheet.xib in Resources */,
+				5D5542C6170BAAF600081A09 /* TDChanBanSheet.xib in Resources */,
+				5D5542C8170BAAF600081A09 /* TDChanInviteExceptionSheet.xib in Resources */,
+				5D5542CA170BAAF600081A09 /* TDChannelSheet.xib in Resources */,
+				5D5542CC170BAAF600081A09 /* TDCHighlightSheet.xib in Resources */,
+				5D5542CE170BAAF600081A09 /* TDCInviteSheet.xib in Resources */,
+				5D5542D0170BAAF600081A09 /* TDCListDialog.xib in Resources */,
+				5D5542D2170BAAF600081A09 /* TDCModeSheet.xib in Resources */,
+				5D5542D4170BAAF600081A09 /* TDCNickSheet.xib in Resources */,
+				5D5542D6170BAAF600081A09 /* TDCPreferences.xib in Resources */,
+				5D5542D8170BAAF600081A09 /* TDCServerSheet.xib in Resources */,
+				5D5542DA170BAAF600081A09 /* TDCTopicSheet.xib in Resources */,
+				5D5542DC170BAAF600081A09 /* TDCWelcomeSheet.xib in Resources */,
+				5D5542DE170BAAF600081A09 /* TVCInputPromptDialog.xib in Resources */,
+				5D5542E0170BAAF600081A09 /* TXCMainMenu.xib in Resources */,
+				5D554328170BAB6B00081A09 /* BasicLanguage.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3295,218 +3296,218 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5D014A3F170B9132009CB22C /* TDCAboutPanel.xib */ = {
+		5D55429D170BAAF600081A09 /* TDCAboutPanel.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A40170B9132009CB22C /* English */,
-				5D014A83170B913A009CB22C /* de */,
-				5D014A84170B913C009CB22C /* fr */,
-				5D014A85170B913E009CB22C /* nb */,
-				5D014A86170B9141009CB22C /* pt */,
+				5D55429E170BAAF600081A09 /* English */,
+				5D5542E1170BAB0A00081A09 /* de */,
+				5D5542F2170BAB1600081A09 /* fr */,
+				5D554303170BAB2200081A09 /* nb */,
+				5D554314170BAB2D00081A09 /* pt */,
 			);
 			name = TDCAboutPanel.xib;
 			sourceTree = "<group>";
 		};
-		5D014A41170B9132009CB22C /* TDCAddressBookSheet.xib */ = {
+		5D55429F170BAAF600081A09 /* TDCAddressBookSheet.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A42170B9132009CB22C /* English */,
-				5D014A87170B9145009CB22C /* de */,
-				5D014A88170B9148009CB22C /* fr */,
-				5D014A89170B9149009CB22C /* nb */,
-				5D014A8A170B914B009CB22C /* pt */,
+				5D5542A0170BAAF600081A09 /* English */,
+				5D5542E2170BAB0A00081A09 /* de */,
+				5D5542F3170BAB1600081A09 /* fr */,
+				5D554304170BAB2200081A09 /* nb */,
+				5D554315170BAB2D00081A09 /* pt */,
 			);
 			name = TDCAddressBookSheet.xib;
 			sourceTree = "<group>";
 		};
-		5D014A43170B9132009CB22C /* TDChanBanExceptionSheet.xib */ = {
+		5D5542A1170BAAF600081A09 /* TDChanBanExceptionSheet.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A44170B9132009CB22C /* English */,
-				5D014A8B170B914F009CB22C /* de */,
-				5D014A8C170B9151009CB22C /* fr */,
-				5D014A8D170B9153009CB22C /* nb */,
-				5D014A8E170B9155009CB22C /* pt */,
+				5D5542A2170BAAF600081A09 /* English */,
+				5D5542E3170BAB0A00081A09 /* de */,
+				5D5542F4170BAB1600081A09 /* fr */,
+				5D554305170BAB2200081A09 /* nb */,
+				5D554316170BAB2D00081A09 /* pt */,
 			);
 			name = TDChanBanExceptionSheet.xib;
 			sourceTree = "<group>";
 		};
-		5D014A45170B9132009CB22C /* TDChanBanSheet.xib */ = {
+		5D5542A3170BAAF600081A09 /* TDChanBanSheet.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A46170B9132009CB22C /* English */,
-				5D014A8F170B9158009CB22C /* de */,
-				5D014A90170B915A009CB22C /* fr */,
-				5D014A91170B915C009CB22C /* nb */,
-				5D014A92170B915F009CB22C /* pt */,
+				5D5542A4170BAAF600081A09 /* English */,
+				5D5542E4170BAB0A00081A09 /* de */,
+				5D5542F5170BAB1600081A09 /* fr */,
+				5D554306170BAB2200081A09 /* nb */,
+				5D554317170BAB2D00081A09 /* pt */,
 			);
 			name = TDChanBanSheet.xib;
 			sourceTree = "<group>";
 		};
-		5D014A47170B9132009CB22C /* TDChanInviteExceptionSheet.xib */ = {
+		5D5542A5170BAAF600081A09 /* TDChanInviteExceptionSheet.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A48170B9132009CB22C /* English */,
-				5D014A93170B9164009CB22C /* de */,
-				5D014A94170B9166009CB22C /* fr */,
-				5D014A95170B9168009CB22C /* pt */,
-				5D014A96170B9169009CB22C /* nb */,
+				5D5542A6170BAAF600081A09 /* English */,
+				5D5542E5170BAB0A00081A09 /* de */,
+				5D5542F6170BAB1600081A09 /* fr */,
+				5D554307170BAB2200081A09 /* nb */,
+				5D554318170BAB2D00081A09 /* pt */,
 			);
 			name = TDChanInviteExceptionSheet.xib;
 			sourceTree = "<group>";
 		};
-		5D014A49170B9132009CB22C /* TDChannelSheet.xib */ = {
+		5D5542A7170BAAF600081A09 /* TDChannelSheet.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A4A170B9132009CB22C /* English */,
-				5D014A97170B916E009CB22C /* de */,
-				5D014A98170B916F009CB22C /* fr */,
-				5D014A99170B9171009CB22C /* nb */,
-				5D014A9A170B9172009CB22C /* pt */,
+				5D5542A8170BAAF600081A09 /* English */,
+				5D5542E6170BAB0A00081A09 /* de */,
+				5D5542F7170BAB1600081A09 /* fr */,
+				5D554308170BAB2200081A09 /* nb */,
+				5D554319170BAB2D00081A09 /* pt */,
 			);
 			name = TDChannelSheet.xib;
 			sourceTree = "<group>";
 		};
-		5D014A4B170B9132009CB22C /* TDCHighlightSheet.xib */ = {
+		5D5542A9170BAAF600081A09 /* TDCHighlightSheet.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A4C170B9132009CB22C /* English */,
-				5D014A9B170B9176009CB22C /* de */,
-				5D014A9C170B9177009CB22C /* fr */,
-				5D014A9D170B9179009CB22C /* nb */,
-				5D014A9E170B917A009CB22C /* pt */,
+				5D5542AA170BAAF600081A09 /* English */,
+				5D5542E7170BAB0A00081A09 /* de */,
+				5D5542F8170BAB1600081A09 /* fr */,
+				5D554309170BAB2200081A09 /* nb */,
+				5D55431A170BAB2D00081A09 /* pt */,
 			);
 			name = TDCHighlightSheet.xib;
 			sourceTree = "<group>";
 		};
-		5D014A4D170B9132009CB22C /* TDCInviteSheet.xib */ = {
+		5D5542AB170BAAF600081A09 /* TDCInviteSheet.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A4E170B9132009CB22C /* English */,
-				5D014A9F170B917E009CB22C /* de */,
-				5D014AA0170B917F009CB22C /* fr */,
-				5D014AA1170B9180009CB22C /* nb */,
-				5D014AA2170B9182009CB22C /* pt */,
+				5D5542AC170BAAF600081A09 /* English */,
+				5D5542E8170BAB0A00081A09 /* de */,
+				5D5542F9170BAB1600081A09 /* fr */,
+				5D55430A170BAB2200081A09 /* nb */,
+				5D55431B170BAB2D00081A09 /* pt */,
 			);
 			name = TDCInviteSheet.xib;
 			sourceTree = "<group>";
 		};
-		5D014A4F170B9132009CB22C /* TDCListDialog.xib */ = {
+		5D5542AD170BAAF600081A09 /* TDCListDialog.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A50170B9132009CB22C /* English */,
-				5D014AA3170B9185009CB22C /* de */,
-				5D014AA4170B9186009CB22C /* fr */,
-				5D014AA5170B9188009CB22C /* nb */,
-				5D014AA6170B9189009CB22C /* pt */,
+				5D5542AE170BAAF600081A09 /* English */,
+				5D5542E9170BAB0A00081A09 /* de */,
+				5D5542FA170BAB1600081A09 /* fr */,
+				5D55430B170BAB2200081A09 /* nb */,
+				5D55431C170BAB2D00081A09 /* pt */,
 			);
 			name = TDCListDialog.xib;
 			sourceTree = "<group>";
 		};
-		5D014A51170B9132009CB22C /* TDCModeSheet.xib */ = {
+		5D5542AF170BAAF600081A09 /* TDCModeSheet.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A52170B9132009CB22C /* English */,
-				5D014AA7170B918D009CB22C /* de */,
-				5D014AA8170B918E009CB22C /* fr */,
-				5D014AA9170B9190009CB22C /* nb */,
-				5D014AAA170B9191009CB22C /* pt */,
+				5D5542B0170BAAF600081A09 /* English */,
+				5D5542EA170BAB0A00081A09 /* de */,
+				5D5542FB170BAB1600081A09 /* fr */,
+				5D55430C170BAB2200081A09 /* nb */,
+				5D55431D170BAB2D00081A09 /* pt */,
 			);
 			name = TDCModeSheet.xib;
 			sourceTree = "<group>";
 		};
-		5D014A53170B9132009CB22C /* TDCNickSheet.xib */ = {
+		5D5542B1170BAAF600081A09 /* TDCNickSheet.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A54170B9132009CB22C /* English */,
-				5D014AAB170B91A9009CB22C /* de */,
-				5D014AAC170B91AA009CB22C /* fr */,
-				5D014AAD170B91AC009CB22C /* nb */,
-				5D014AAE170B91AD009CB22C /* pt */,
+				5D5542B2170BAAF600081A09 /* English */,
+				5D5542EB170BAB0A00081A09 /* de */,
+				5D5542FC170BAB1600081A09 /* fr */,
+				5D55430D170BAB2200081A09 /* nb */,
+				5D55431E170BAB2D00081A09 /* pt */,
 			);
 			name = TDCNickSheet.xib;
 			sourceTree = "<group>";
 		};
-		5D014A55170B9132009CB22C /* TDCPreferences.xib */ = {
+		5D5542B3170BAAF600081A09 /* TDCPreferences.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A56170B9132009CB22C /* English */,
-				5D014AAF170B91B1009CB22C /* de */,
-				5D014AB0170B91B2009CB22C /* fr */,
-				5D014AB1170B91B4009CB22C /* nb */,
-				5D014AB2170B91B5009CB22C /* pt */,
+				5D5542B4170BAAF600081A09 /* English */,
+				5D5542EC170BAB0A00081A09 /* de */,
+				5D5542FD170BAB1600081A09 /* fr */,
+				5D55430E170BAB2200081A09 /* nb */,
+				5D55431F170BAB2D00081A09 /* pt */,
 			);
 			name = TDCPreferences.xib;
 			sourceTree = "<group>";
 		};
-		5D014A57170B9132009CB22C /* TDCServerSheet.xib */ = {
+		5D5542B5170BAAF600081A09 /* TDCServerSheet.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A58170B9132009CB22C /* English */,
-				5D014AB3170B91BA009CB22C /* de */,
-				5D014AB4170B91BB009CB22C /* fr */,
-				5D014AB5170B91BC009CB22C /* nb */,
-				5D014AB6170B91BE009CB22C /* pt */,
+				5D5542B6170BAAF600081A09 /* English */,
+				5D5542ED170BAB0A00081A09 /* de */,
+				5D5542FE170BAB1600081A09 /* fr */,
+				5D55430F170BAB2200081A09 /* nb */,
+				5D554320170BAB2E00081A09 /* pt */,
 			);
 			name = TDCServerSheet.xib;
 			sourceTree = "<group>";
 		};
-		5D014A59170B9132009CB22C /* TDCTopicSheet.xib */ = {
+		5D5542B7170BAAF600081A09 /* TDCTopicSheet.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A5A170B9132009CB22C /* English */,
-				5D014AB7170B91C2009CB22C /* de */,
-				5D014AB8170B91C3009CB22C /* fr */,
-				5D014AB9170B91C5009CB22C /* nb */,
-				5D014ABA170B91C6009CB22C /* pt */,
+				5D5542B8170BAAF600081A09 /* English */,
+				5D5542EE170BAB0A00081A09 /* de */,
+				5D5542FF170BAB1600081A09 /* fr */,
+				5D554310170BAB2200081A09 /* nb */,
+				5D554321170BAB2E00081A09 /* pt */,
 			);
 			name = TDCTopicSheet.xib;
 			sourceTree = "<group>";
 		};
-		5D014A5B170B9132009CB22C /* TDCWelcomeSheet.xib */ = {
+		5D5542B9170BAAF600081A09 /* TDCWelcomeSheet.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A5C170B9132009CB22C /* English */,
-				5D014ABB170B91CA009CB22C /* de */,
-				5D014ABC170B91CC009CB22C /* fr */,
-				5D014ABD170B91CE009CB22C /* nb */,
-				5D014ABE170B91CF009CB22C /* pt */,
+				5D5542BA170BAAF600081A09 /* English */,
+				5D5542EF170BAB0A00081A09 /* de */,
+				5D554300170BAB1600081A09 /* fr */,
+				5D554311170BAB2200081A09 /* nb */,
+				5D554322170BAB2E00081A09 /* pt */,
 			);
 			name = TDCWelcomeSheet.xib;
 			sourceTree = "<group>";
 		};
-		5D014A5D170B9132009CB22C /* TVCInputPromptDialog.xib */ = {
+		5D5542BB170BAAF600081A09 /* TVCInputPromptDialog.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A5E170B9132009CB22C /* English */,
-				5D014ABF170B91D2009CB22C /* de */,
-				5D014AC0170B91D4009CB22C /* fr */,
-				5D014AC1170B91D6009CB22C /* nb */,
-				5D014AC2170B91D7009CB22C /* pt */,
+				5D5542BC170BAAF600081A09 /* English */,
+				5D5542F0170BAB0A00081A09 /* de */,
+				5D554301170BAB1600081A09 /* fr */,
+				5D554312170BAB2200081A09 /* nb */,
+				5D554323170BAB2E00081A09 /* pt */,
 			);
 			name = TVCInputPromptDialog.xib;
 			sourceTree = "<group>";
 		};
-		5D014A5F170B9132009CB22C /* TXCMainMenu.xib */ = {
+		5D5542BD170BAAF600081A09 /* TXCMainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014A60170B9132009CB22C /* English */,
-				5D014AC3170B91DD009CB22C /* de */,
-				5D014AC4170B91DE009CB22C /* fr */,
-				5D014AC5170B91E0009CB22C /* nb */,
-				5D014AC6170B91E1009CB22C /* pt */,
+				5D5542BE170BAAF600081A09 /* English */,
+				5D5542F1170BAB0A00081A09 /* de */,
+				5D554302170BAB1600081A09 /* fr */,
+				5D554313170BAB2200081A09 /* nb */,
+				5D554324170BAB2E00081A09 /* pt */,
 			);
 			name = TXCMainMenu.xib;
 			sourceTree = "<group>";
 		};
-		5D014B14170BA68A009CB22C /* BasicLanguage.strings */ = {
+		5D554325170BAB6B00081A09 /* BasicLanguage.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D014B15170BA68A009CB22C /* English */,
-				5D014B18170BA68E009CB22C /* de */,
-				5D014B19170BA690009CB22C /* fr */,
-				5D014B1A170BA692009CB22C /* nb */,
-				5D014B1B170BA694009CB22C /* pt */,
+				5D554326170BAB6B00081A09 /* English */,
+				5D554329170BAB7400081A09 /* de */,
+				5D55432A170BAB8000081A09 /* fr */,
+				5D55432B170BAB8A00081A09 /* nb */,
+				5D55432C170BAB9300081A09 /* pt */,
 			);
 			name = BasicLanguage.strings;
 			sourceTree = "<group>";
