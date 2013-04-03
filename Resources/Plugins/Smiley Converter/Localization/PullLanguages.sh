@@ -1,11 +1,11 @@
 #!/bin/sh
 
-set -e
+set -ex
 
 pushd "$(dirname "$0")" &>/dev/null
 
 for lang in ??.lproj; do
-	test lang == "en.lproj" && continue
+	test $lang == "en.lproj" && continue
 	for XIB in en.lproj/*.xib; do
 		XIB="$(basename "$XIB")"
 		ibtool 	--import-strings-file "${lang}/${XIB%.xib}.strings" \
