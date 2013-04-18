@@ -183,6 +183,10 @@
 		4C46CCCB1580469E00846B64 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C46CCC21580469E00846B64 /* WebKit.framework */; };
 		4C52379415C18F6700414852 /* Style Default Templates in Resources */ = {isa = PBXBuildFile; fileRef = 4C52379215C18F6700414852 /* Style Default Templates */; };
 		4C52379515C18F6700414852 /* Styles in Resources */ = {isa = PBXBuildFile; fileRef = 4C52379315C18F6700414852 /* Styles */; };
+		4C5A0311170C2C010016BB1A /* TPCPreferencesImportExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5A0310170C2C010016BB1A /* TPCPreferencesImportExport.m */; };
+		4C5A0317170C2C170016BB1A /* TPCPreferencesImportExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C5A0316170C2C170016BB1A /* TPCPreferencesImportExport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C5A0318170C31010016BB1A /* TPCPreferencesImportExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C5A0316170C2C170016BB1A /* TPCPreferencesImportExport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C5A0319170C31110016BB1A /* TPCPreferencesImportExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5A0310170C2C010016BB1A /* TPCPreferencesImportExport.m */; };
 		4C5A6DBF15C39B1900143574 /* NSScreenHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C5A6DBE15C39B1900143574 /* NSScreenHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C5BA37A16F1302F00A96CA2 /* IRCNetworks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF2EEA15804790006FFE21 /* IRCNetworks.plist */; };
 		4C5BA37B16F1302F00A96CA2 /* application.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF2EF7158047E9006FFE21 /* application.icns */; };
@@ -689,6 +693,8 @@
 		4CBBD1A516E3570800D2FEFE /* TVCMemberListUserInfoPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBBD1A416E3570800D2FEFE /* TVCMemberListUserInfoPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CBCF89C16C7CD9200DC3521 /* THOPluginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBCF89B16C7CD9200DC3521 /* THOPluginManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CBCF89E16C7CE9700DC3521 /* THOPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCF89D16C7CE9700DC3521 /* THOPluginManager.m */; };
+		4CC70203171E1CB400BDFAE0 /* BuildConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC70202171E1CB400BDFAE0 /* BuildConfig.h */; };
+		4CC70204171E1CB400BDFAE0 /* BuildConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC70202171E1CB400BDFAE0 /* BuildConfig.h */; };
 		4CCC6B61158E8C48003A102B /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = 4CCC6B60158E8C48003A102B /* Scripts */; };
 		4CCF2EE2158046F9006FFE21 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF2EE1158046F9006FFE21 /* Growl.framework */; };
 		4CCF2EEB15804790006FFE21 /* IRCNetworks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF2EEA15804790006FFE21 /* IRCNetworks.plist */; };
@@ -755,6 +761,10 @@
 		5D554328170BAB6B00081A09 /* BasicLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D554325170BAB6B00081A09 /* BasicLanguage.strings */; };
 		5D9B8EA31709FF1500919CB0 /* BuildConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D9B8EA21709FF1500919CB0 /* BuildConfig.h */; };
 		5D9B8EA41709FF1500919CB0 /* BuildConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D9B8EA21709FF1500919CB0 /* BuildConfig.h */; };
+		5D4846C3171F0AC00015F2B0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4846C2171F0AC00015F2B0 /* Reachability.m */; };
+		5D4846C4171F0AC00015F2B0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4846C2171F0AC00015F2B0 /* Reachability.m */; };
+		5D4846CA171F0ACD0015F2B0 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4846C9171F0ACD0015F2B0 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D4846CB171F0ACD0015F2B0 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4846C9171F0ACD0015F2B0 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -963,6 +973,8 @@
 		4C52379215C18F6700414852 /* Style Default Templates */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Style Default Templates"; path = "Resources/Styles/Style Default Templates"; sourceTree = SOURCE_ROOT; };
 		4C52379315C18F6700414852 /* Styles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Styles; path = Resources/Styles/Styles; sourceTree = SOURCE_ROOT; };
 		4C588BB816E34C1D007EFF6D /* Code Signing Identity.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Code Signing Identity.xcconfig"; path = "Resources/Build Configurations/Code Signing Identity.xcconfig"; sourceTree = SOURCE_ROOT; };
+		4C5A0310170C2C010016BB1A /* TPCPreferencesImportExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCPreferencesImportExport.m; sourceTree = "<group>"; };
+		4C5A0316170C2C170016BB1A /* TPCPreferencesImportExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCPreferencesImportExport.h; sourceTree = "<group>"; };
 		4C5A6DBE15C39B1900143574 /* NSScreenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSScreenHelper.h; sourceTree = "<group>"; };
 		4C5A6DC015C39BD600143574 /* NSScreenHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSScreenHelper.m; sourceTree = "<group>"; };
 		4C5BA4E616F1302F00A96CA2 /* Textual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Textual.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1241,6 +1253,7 @@
 		4CBBD1A416E3570800D2FEFE /* TVCMemberListUserInfoPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCMemberListUserInfoPopover.h; sourceTree = "<group>"; };
 		4CBCF89B16C7CD9200DC3521 /* THOPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THOPluginManager.h; sourceTree = "<group>"; };
 		4CBCF89D16C7CE9700DC3521 /* THOPluginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THOPluginManager.m; sourceTree = "<group>"; };
+		4CC70202171E1CB400BDFAE0 /* BuildConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuildConfig.h; path = .tmp/BuildConfig.h; sourceTree = SOURCE_ROOT; };
 		4CCC6B47158E8C27003A102B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
 		4CCC6B60158E8C48003A102B /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Scripts; path = "Resources/All Scripts/Bundled Scripts/Scripts"; sourceTree = SOURCE_ROOT; };
 		4CCC6B62158E8CCC003A102B /* Blowfish Key Control Extension.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Blowfish Key Control Extension.xcodeproj"; path = "Resources/Plugins/Blowfish Key Control/Blowfish Key Control Extension.xcodeproj"; sourceTree = SOURCE_ROOT; };
@@ -1367,6 +1380,8 @@
 		5D55432B170BAB8A00081A09 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = Resources/Localization/nb.lproj/BasicLanguage.strings; sourceTree = SOURCE_ROOT; };
 		5D55432C170BAB9300081A09 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = Resources/Localization/pt.lproj/BasicLanguage.strings; sourceTree = SOURCE_ROOT; };
 		5D9B8EA21709FF1500919CB0 /* BuildConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuildConfig.h; path = Resources/BuildConfig.h; sourceTree = SOURCE_ROOT; };
+		5D4846C2171F0AC00015F2B0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		5D4846C9171F0ACD0015F2B0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		5D9B8EB6170A0EB400919CB0 /* BuildFrameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = BuildFrameworks.sh; path = "Main Project (Textual).xcodeproj/BuildFrameworks.sh"; sourceTree = SOURCE_ROOT; };
 		5D9B8EB7170A0EB400919CB0 /* CleanUpResources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = CleanUpResources.sh; path = "Main Project (Textual).xcodeproj/CleanUpResources.sh"; sourceTree = SOURCE_ROOT; };
 		5D9B8EB8170A0EB400919CB0 /* UpdateVersionInfo.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = UpdateVersionInfo.sh; path = "Main Project (Textual).xcodeproj/UpdateVersionInfo.sh"; sourceTree = SOURCE_ROOT; };
@@ -1480,6 +1495,7 @@
 		4C3D0B7A1594909500567623 /* Migration Assistant */ = {
 			isa = PBXGroup;
 			children = (
+				4C5A0310170C2C010016BB1A /* TPCPreferencesImportExport.m */,
 				4C3D0B781594908B00567623 /* TPCPreferencesMigrationAssistant.m */,
 			);
 			name = "Migration Assistant";
@@ -1952,6 +1968,7 @@
 				4C8AF57B158E99520026668C /* TLOTimer.h */,
 				4C8AF57C158E99520026668C /* TLOTimerCommand.h */,
 				4C8AF57E158E99520026668C /* TPCPreferences.h */,
+				4C5A0316170C2C170016BB1A /* TPCPreferencesImportExport.h */,
 				4C3D0B7B159490C800567623 /* TPCPreferencesMigrationAssistant.h */,
 				4C8AF57F158E99520026668C /* TPCThemeController.h */,
 				4C8AF57D158E99520026668C /* TPCThemeSettings.h */,
@@ -2064,6 +2081,7 @@
 			children = (
 				4C8AF5D5158E99520026668C /* GCDAsyncSocket.m */,
 				4C8AF5D6158E99520026668C /* GCDAsyncSocketExtensions.m */,
+				5D4846C2171F0AC00015F2B0 /* Reachability.m */,
 				4C8AF5D7158E99520026668C /* RLMAsyncSocket.m */,
 			);
 			path = Sockets;
@@ -2165,6 +2183,7 @@
 				4C8AF746158EB6CA0026668C /* GTMEncodeHTML.h */,
 				4C8AF747158EB6CA0026668C /* GTMEncodeURL.h */,
 				4C8AF748158EB6CA0026668C /* GTMGarbageCollection.h */,
+				5D4846C9171F0ACD0015F2B0 /* Reachability.h */,
 				4C8AF74A158EB6CA0026668C /* RLMAsyncSocket.h */,
 			);
 			path = "External Libraries";
@@ -2264,7 +2283,7 @@
 			children = (
 				4CD6202E16E31EE600D780D6 /* Configurations */,
 				4CCC6B47158E8C27003A102B /* Info.plist */,
-				5D9B8EA21709FF1500919CB0 /* BuildConfig.h */,
+				4CC70202171E1CB400BDFAE0 /* BuildConfig.h */,
 			);
 			name = "Build Settings";
 			sourceTree = "<group>";
@@ -2504,7 +2523,9 @@
 				4CB331BE16F1BBE000D65CBE /* NSImageHelper.h in Headers */,
 				4C937BDC17061A3F0050CEF3 /* TLOSpeechSynthesizer.h in Headers */,
 				4C0444E816F1555800EBB665 /* TVCServerListCellBadge.h in Headers */,
-				5D9B8EA41709FF1500919CB0 /* BuildConfig.h in Headers */,
+				5D4846CB171F0ACD0015F2B0 /* Reachability.h in Headers */,
+				4C5A0318170C31010016BB1A /* TPCPreferencesImportExport.h in Headers */,
+				4CC70204171E1CB400BDFAE0 /* BuildConfig.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2639,9 +2660,11 @@
 				4C8AF68B158E99520026668C /* TXMasterController.h in Headers */,
 				4C1E2BF516FB1F22007C9717 /* NSUserDefaultsHelper.h in Headers */,
 				4C8AF68C158E99520026668C /* TXMenuController.h in Headers */,
+				5D4846CA171F0ACD0015F2B0 /* Reachability.h in Headers */,
 				4C937BDB170618A80050CEF3 /* TLOSpeechSynthesizer.h in Headers */,
 				4C0444E716F1553C00EBB665 /* TVCServerListCellBadge.h in Headers */,
-				5D9B8EA31709FF1500919CB0 /* BuildConfig.h in Headers */,
+				4C5A0317170C2C170016BB1A /* TPCPreferencesImportExport.h in Headers */,
+				4CC70203171E1CB400BDFAE0 /* BuildConfig.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3038,6 +3061,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5A0319170C31110016BB1A /* TPCPreferencesImportExport.m in Sources */,
 				4C937BDD17061A4D0050CEF3 /* TLOSpeechSynthesizer.m in Sources */,
 				4C1E2BF716FB2497007C9717 /* NSUserDefaultsHelper.m in Sources */,
 				4C0444F616F1603B00EBB665 /* TXGlobalModels.m in Sources */,
@@ -3149,6 +3173,7 @@
 				4C0445DF16F1603C00EBB665 /* TVCMainWindowSegmentedControl.m in Sources */,
 				4C0445E016F1603C00EBB665 /* TVCThinSplitView.m in Sources */,
 				4CB331B616F1BBC700D65CBE /* NSImageHelper.m in Sources */,
+				5D4846C4171F0AC00015F2B0 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3267,6 +3292,8 @@
 				4CB331B516F1BBC700D65CBE /* NSImageHelper.m in Sources */,
 				4C1E2BEF16FB1F13007C9717 /* NSUserDefaultsHelper.m in Sources */,
 				4C937BD5170618940050CEF3 /* TLOSpeechSynthesizer.m in Sources */,
+				4C5A0311170C2C010016BB1A /* TPCPreferencesImportExport.m in Sources */,
+				5D4846C3171F0AC00015F2B0 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

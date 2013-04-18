@@ -37,56 +37,8 @@
 
 #import "TextualApplication.h"
 
-@interface NSArray (TXArrayHelper)
-@property (nonatomic, readonly, assign) NSRange range;
-
-- (id)safeObjectAtIndex:(NSInteger)n;
-
-- (BOOL)boolAtIndex:(NSInteger)n;
-- (NSArray *)arrayAtIndex:(NSInteger)n;
-- (NSString *)stringAtIndex:(NSInteger)n;
-- (NSDictionary *)dictionaryAtIndex:(NSInteger)n;
-- (NSInteger)integerAtIndex:(NSInteger)n;
-- (long long)longLongAtIndex:(NSInteger)n;
-- (TXNSDouble)doubleAtIndex:(NSInteger)n;
-- (void *)pointerAtIndex:(NSInteger)n;
-
-- (BOOL)containsObjectIgnoringCase:(id)anObject;
-
-- (NSArray *)arrayByInsertingSortedObject:(id)obj usingComparator:(NSComparator)comparator;
-
-- (NSArray *)arrayByRemovingObjectAtIndex:(NSUInteger)idx;
-
-- (NSUInteger)indexOfObjectMatchingValue:(id)value withKeyPath:(NSString *)keyPath;
-
-- (NSUInteger)indexOfObjectMatchingValue:(id)value withKeyPath:(NSString *)keyPath usingSelector:(SEL)comparison;
-@end
-
-@interface NSMutableArray (TXMutableArrayHelper)
-- (void)safeRemoveObjectAtIndex:(NSInteger)n;
-
-- (void)safeAddObject:(id)anObject;
-- (void)safeAddObjectWithoutDuplication:(id)anObject;
-
-- (void)addBool:(BOOL)value;
-- (void)addInteger:(NSInteger)value;
-- (void)addLongLong:(long long)value;
-- (void)addDouble:(TXNSDouble)value;
-- (void)addPointer:(void *)value;
-
-- (void)safeInsertObject:(id)anObject atIndex:(NSUInteger)index;
-
-- (void)insertBool:(BOOL)value atIndex:(NSUInteger)index;
-- (void)insertInteger:(NSInteger)value atIndex:(NSUInteger)index;
-- (void)insertLongLong:(long long)value atIndex:(NSUInteger)index;
-- (void)insertDouble:(TXNSDouble)value atIndex:(NSUInteger)index;
-- (void)insertPointer:(void *)value atIndex:(NSUInteger)index;
-
-- (void)performSelectorOnObjectValueAndReplace:(SEL)performSelector;
-
-- (void)insertSortedObject:(id)obj usingComparator:(NSComparator)comparator;
-@end
-
-@interface NSIndexSet (TXIndexSetHelper)
-- (NSArray *)arrayFromIndexSet;
+/* Absolutely no plugin should call this class. */
+@interface TPCPreferencesImportExport : NSObject
++ (void)import;
++ (void)export;
 @end

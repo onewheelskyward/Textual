@@ -183,26 +183,6 @@
 }
 
 #pragma mark -
-#pragma mark Weights
-
-- (void)detectOutgoingConversation:(NSString *)text
-{
-	NSString *suffix = [TPCPreferences tabCompletionSuffix];
-
-	NSObjectIsEmptyAssert(suffix);
-
-	NSArray *pieces = [text split:suffix];
-
-	if ([pieces count] > 1) {
-		IRCUser *talker = [self findMember:[pieces safeObjectAtIndex:0]];
-
-		if (talker) {
-			[talker incomingConversation];
-		}
-	}
-}
-
-#pragma mark -
 #pragma mark Log File
 
 - (void)reopenLogFileIfNeeded
@@ -263,9 +243,9 @@
 
 - (void)sortedMemberListReload
 {
-	[self.memberList sortUsingComparator:^NSComparisonResult(id obj1, id obj2) {
-		return [obj1 compare:obj2];
-	}];
+	/* Do not call this unless needed. */
+	self.memberList = [self.memberList sortedArrayUsingComparator:NSDefaultComparator];
+	self.memberListLengthSorted = [self.memberList sortedArrayUsingComparator:[IRCUser nicknameLengthComparator]];
 
 	[self reloadMemberList];
 }
@@ -273,35 +253,11 @@
 - (void)sortedInsert:(IRCUser *)item
 {
 	PointerIsEmptyAssert(item);
-	
-	const NSInteger LINEAR_SEARCH_THRESHOLD = 5;
-	
-	NSInteger left = 0;
-	NSInteger right = self.memberList.count;
-	
-	while ((right - left) > LINEAR_SEARCH_THRESHOLD) {
-		NSInteger i = ((left + right) / 2);
-		
-		IRCUser *t = [self memberAtIndex:i];
-		
-		if ([t compare:item] == NSOrderedAscending) {
-			left = (i + 1);
-		} else {
-			right = (i + 1);
-		}
-	}
-	
-	for (NSInteger i = left; i < right; ++i) {
-		IRCUser *t = [self memberAtIndex:i];
-		
-		if ([t compare:item] == NSOrderedDescending) {
-			[self.memberList safeInsertObject:item atIndex:i];
-			
-			return;
-		}
-	}
-	
-	[self.memberList safeAddObject:item];
+
+	self.memberList = [self.memberList arrayByInsertingSortedObject:item usingComparator:NSDefaultComparator];
+
+	/* Conversation tracking scans based on nickname length. */
+	self.memberListLengthSorted = [self.memberList arrayByInsertingSortedObject:item usingComparator:[IRCUser nicknameLengthComparator]];
 }
 
 #pragma mark -
@@ -342,11 +298,17 @@
 	NSObjectIsEmptyAssert(nick);
 	
 	NSInteger n = [self indexOfMember:nick];
-	
-	if (n >= 0) {
-		[self.memberList safeRemoveObjectAtIndex:n];
+
+	if (NSDissimilarObjects(n, NSNotFound)) {
+		IRCUser *user = [self.memberList objectAtIndex:n];
+
+		self.memberList = [self.memberList arrayByRemovingObjectAtIndex:n];
 
         [self.client postEventToViewController:@"channelMemberRemoved" forChannel:self];
+
+		n = [self.memberListLengthSorted indexOfObject:user];
+
+		self.memberListLengthSorted = [self.memberListLengthSorted arrayByRemovingObjectAtIndex:n];
 	}
 	
 	if (reload) {
@@ -362,17 +324,17 @@
 	NSObjectIsEmptyAssert(toNick);
 	
 	NSInteger n = [self indexOfMember:fromNick];
-	
-	if (n >= 0) {
-		IRCUser *m = [self memberAtIndex:n];
-		
-		m.nickname = toNick;
 
-		[self removeMember:m.nickname reload:NO];
-		
-		[self sortedInsert:m];
-		[self reloadMemberList];
-	}
+	NSAssertReturn(NSDissimilarObjects(n, NSNotFound));
+	
+	IRCUser *m = [self memberAtIndex:n];
+	
+	m.nickname = toNick;
+
+	[self removeMember:m.nickname reload:NO];
+	
+	[self sortedInsert:m];
+	[self reloadMemberList];
 }
 
 #pragma mark -
@@ -383,38 +345,39 @@
 	NSObjectIsEmptyAssert(mode);
 	
 	NSInteger n = [self indexOfMember:nick];
+
+	NSAssertReturn(NSDissimilarObjects(n, NSNotFound));
 	
-	if (n >= 0) {
-		IRCUser *m = [self memberAtIndex:n];
-		
-		switch ([mode characterAtIndex:0]) {
-			case 'q': { m.q = value; break; }
-			case 'a': { m.a = value; break; }
-			case 'o': { m.o = value; break; }
-			case 'h': { m.h = value; break; }
-			case 'v': { m.v = value; break; }
-		}
-		
-		[self removeMember:m.nickname reload:NO];
-
-		IRCISupportInfo *isupport = self.client.isupport;
-
-		m.q = (m.q && [isupport modeIsSupportedUserPrefix:@"q"]);
-		m.a = (m.a && [isupport modeIsSupportedUserPrefix:@"a"]);
-		m.o = (m.o && [isupport modeIsSupportedUserPrefix:@"o"]);
-		m.h = (m.h && [isupport modeIsSupportedUserPrefix:@"h"]);
-		m.v = (m.v && [isupport modeIsSupportedUserPrefix:@"v"]);
-		
-		[self sortedInsert:m];
-		[self reloadMemberList];
+	IRCUser *m = [self memberAtIndex:n];
+	
+	switch ([mode characterAtIndex:0]) {
+		case 'q': { m.q = value; break; }
+		case 'a': { m.a = value; break; }
+		case 'o': { m.o = value; break; }
+		case 'h': { m.h = value; break; }
+		case 'v': { m.v = value; break; }
 	}
+	
+	[self removeMember:m.nickname reload:NO];
+
+	IRCISupportInfo *isupport = self.client.isupport;
+
+	m.q = (m.q && [isupport modeIsSupportedUserPrefix:@"q"]);
+	m.a = (m.a && [isupport modeIsSupportedUserPrefix:@"a"]);
+	m.o = (m.o && [isupport modeIsSupportedUserPrefix:@"o"]);
+	m.h = (m.h && [isupport modeIsSupportedUserPrefix:@"h"]);
+	m.v = (m.v && [isupport modeIsSupportedUserPrefix:@"v"]);
+	
+	[self sortedInsert:m];
+	[self reloadMemberList];
 }
 
 #pragma mark -
 
 - (void)clearMembers
 {
-	[self.memberList removeAllObjects];
+	self.memberList = nil;
+	self.memberList = @[];
 	
 	[self reloadMemberList];
 }
@@ -429,29 +392,14 @@
 - (NSInteger)indexOfMember:(NSString *)nick options:(NSStringCompareOptions)mask
 {
 	NSObjectIsEmptyAssertReturn(nick, -1);
-	
-	NSInteger index = 0;
 
-	/* Incase memberList is modified while reading. */
-	for (IRCUser *m in self.memberList.copy) {
-		if (mask & NSCaseInsensitiveSearch) {
-			if ([nick isEqualIgnoringCase:m.nickname]) {
-				return index;
+	//[self.memberList indexOfObjectMatchingValue:nick withKeyPath:@"nickname"];
 
-				break;
-			}
-		} else {
-			if ([nick isEqualToString:m.nickname]) {
-				return index;
-
-				break;
-			}
-		}
-
-		index += 1;
+	if (mask & NSCaseInsensitiveSearch) {
+		return [self.memberList indexOfObjectMatchingValue:nick withKeyPath:@"nickname" usingSelector:@selector(isEqualIgnoringCase:)];
+	} else {
+		return [self.memberList indexOfObjectMatchingValue:nick withKeyPath:@"nickname" usingSelector:@selector(isEqualToString:)];
 	}
-
-	return -1;
 }
 
 #pragma mark -
@@ -471,12 +419,10 @@
 - (IRCUser *)findMember:(NSString *)nick options:(NSStringCompareOptions)mask
 {
 	NSInteger n = [self indexOfMember:nick options:mask];
+
+	NSAssertReturnR(NSDissimilarObjects(n, NSNotFound), nil);
 	
-	if (n >= 0) {
-		return [self memberAtIndex:n];
-	}
-	
-	return nil;
+	return [self memberAtIndex:n];
 }
 
 #pragma mark -

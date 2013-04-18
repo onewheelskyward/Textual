@@ -52,8 +52,6 @@
 
 		self.sortKey = 1;
 		self.sortOrder = NSOrderedDescending;
-
-        [self.channelListTable setSelectionHighlightStyle:NSTableViewSelectionHighlightStyleNone];
 	}
 
 	return self;
@@ -68,7 +66,7 @@
 
 - (void)show
 {
-    [self.networkNameField setStringValue:TXTFLS(@"ChannelListNetworkName", self.client.altNetworkName)];
+    [self.networkNameField setStringValue:TXTFLS(@"ChannelListDialogNetworkName", self.client.altNetworkName)];
 
 	[self.window restoreWindowStateUsingKeyword:NSStringFromClass(self.class)];
 	
@@ -113,7 +111,7 @@
 
         /* Reload table instantly until we reach at least 200 channels. 
          At that point we begin reloading every 2.0 seconds. For networks
-         large as Freenode with 12,000 channels. This is much better than 
+         large as freenode with 12,000 channels. This is much better than 
          a reload for each. */
         
         if (self.unfilteredList.count < 200) {
@@ -131,12 +129,19 @@
 - (void)reloadTable
 {
     self.waitingForReload = NO;
-    
+
+	NSString *titleCount;
+
+	NSString *count1 = TXFormattedNumber(self.unfilteredList.count);
+	NSString *count2 = TXFormattedNumber(self.filteredList.count);
+
 	if (NSObjectIsNotEmpty(self.searchField.stringValue) && NSDissimilarObjects(self.unfilteredList.count, self.filteredList.count)) {
-		[self.channelCountField setStringValue:TXTFLS(@"ListDialogHasSearchResults", self.unfilteredList.count, self.filteredList.count)];
+		titleCount = TXTFLS(@"ChannelListDialogHasSearchResults", count1, count2);
 	} else {
-		[self.channelCountField setStringValue:TXTFLS(@"ListDialogHasChannels", self.unfilteredList.count)];
+		titleCount = TXTFLS(@"ChannelListDialogHasChannels", count1);
 	}
+
+	[self.window setTitle:TXTFLS(@"ChannelListDialogTitle", titleCount)];
 
 	[self.channelListTable reloadData];
 }
@@ -219,6 +224,13 @@ static NSInteger compareItems(NSArray *self, NSArray *other, void *context)
     [self reloadTable];
 }
 
+/* onJoinChannels: handles join for selected items. */
+- (void)onJoinChannels:(id)sender
+{
+	[self onJoin:sender];
+}
+
+/* onJoin: is a legacy method. It handles join on double click. */
 - (void)onJoin:(id)sender
 {
 	NSArray *list = self.unfilteredList;

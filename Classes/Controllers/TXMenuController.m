@@ -2086,4 +2086,29 @@
 	[self.worldController.selectedViewController previousHighlight];
 }
 
+#pragma mark -
+#pragma mark Import/Export
+
+- (void)importPreferences:(id)sender
+{
+	[TPCPreferencesImportExport import];
+}
+
+- (void)exportPreferences:(id)sender
+{
+	[TPCPreferencesImportExport export];
+}
+
+#pragma mark -
+#pragma mark Toggle Mute
+
+- (void)toggleMute:(id)sender
+{
+    if ([self.worldController isSoundMuted]) {
+        [self.worldController unmuteSound];
+    } else {
+        [self.worldController muteSound];
+    }
+}
+
 @end

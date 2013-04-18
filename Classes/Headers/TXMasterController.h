@@ -74,6 +74,8 @@
 @property (nonatomic, strong) TLOSpeechSynthesizer *speechSynthesizer;
 @property (nonatomic, assign) NSInteger memberSplitViewOldPosition;
 
+@property (assign) NSInteger terminatingClientCount;
+
 - (void)loadWindowState:(BOOL)honorFullscreen;
 - (void)saveWindowState;
 
@@ -98,6 +100,7 @@
 - (void)selectPreviousActiveServer:(NSEvent *)e;
 - (void)selectPreviousUnreadChannel:(NSEvent *)e;
 - (void)selectPreviousActiveChannel:(NSEvent *)e;
+- (void)selectPreviousWindow:(NSEvent *)e;
 @end
 
 @interface NSObject (TXMasterControllerObjectExtension)

@@ -63,6 +63,87 @@
 	[self.keyHandler registerSelector:selector character:c modifiers:mods];
 }
 
+/* Three Finger Swipe Event
+	This event will only work if 
+		System Preferences -> Trackpad -> More Gestures -> Swipe between full-screen apps
+	is not set to "Swipe left or right with three fingers"
+ */
+- (void)swipeWithEvent:(NSEvent *)event
+{
+    CGFloat x = [event deltaX];
+	
+    if (x > 0) {
+        [self.masterController selectNextSelection:nil];
+    } else if (x < 0) {
+        [self.masterController selectPreviousWindow:nil];
+    }
+}
+
+- (void)beginGestureWithEvent:(NSEvent *)event
+{
+	CGFloat TVCSwipeMinimumLength = [TPCPreferences swipeMinimumLength];
+	NSAssertReturn(TVCSwipeMinimumLength > 0);
+
+	NSSet *touches = [event touchesMatchingPhase:NSTouchPhaseAny inView:nil];
+
+	self.twoFingerTouches = [NSMutableDictionary dictionary];
+
+	for (NSTouch *touch in touches) {
+		// Cannot use safeSetObject because identiy is not an NSString
+		// It's cool though cause touch is guarunteed not to be nil
+
+		self.twoFingerTouches[touch.identity] = touch;
+	}
+}
+
+- (void)endGestureWithEvent:(NSEvent *)event
+{
+	CGFloat TVCSwipeMinimumLength = [TPCPreferences swipeMinimumLength];
+	NSAssertReturn(TVCSwipeMinimumLength > 0);
+
+	NSObjectIsEmptyAssert(self.twoFingerTouches);
+	
+	NSSet *touches = [event touchesMatchingPhase:NSTouchPhaseAny inView:nil];
+
+	NSMutableDictionary *beginTouches = [self.twoFingerTouches copy];
+
+	self.twoFingerTouches = nil;
+
+	NSMutableArray *magnitudes = [NSMutableArray array];
+
+	for (NSTouch *touch in touches) {
+		NSTouch *beginTouch = [beginTouches objectForKey:touch.identity];
+
+		PointerIsEmptyAssertLoopContinue(beginTouch);
+
+		CGFloat magnitude = (touch.normalizedPosition.x - beginTouch.normalizedPosition.x);
+
+		[magnitudes safeAddObject:@(magnitude)];
+	}
+
+	if (magnitudes.count < 2) {
+		return;
+	}
+
+	CGFloat sum = 0.f;
+	
+	for (NSNumber *magnitude in magnitudes) {
+		sum += magnitude.floatValue;
+	}
+	
+	CGFloat absSum = fabsf(sum);
+
+	if (absSum < TVCSwipeMinimumLength) {
+		return;
+	}
+
+	if (sum > 0) {
+		[self.masterController selectNextSelection:nil];
+    } else if (sum < 0) {
+		[self.masterController selectPreviousWindow:nil];
+    }
+}
+
 - (void)sendEvent:(NSEvent *)e
 {
 	if ([e type] == NSKeyDown) {

@@ -102,6 +102,7 @@
 	@class TLOpenLink;
 	@class TPCPreferences;
 	@class TPCPreferencesMigrationAssistant;
+	@class TPCPreferencesImportExport;
 	@class TPCThemeController;
 	@class TPCThemeSettings;
 	@class TVCDockIcon;
@@ -166,6 +167,7 @@
 	#import "GTMEncodeHTML.h"
 	#import "GTMEncodeURL.h"
 	#import "GTMGarbageCollection.h"
+	#import "Reachability.h"
 	#import "RLMAsyncSocket.h"
 
 	/* IRC Controllers — Core. */
@@ -258,6 +260,7 @@
 
 	#import "TPCPreferences.h"
 	#import "TPCPreferencesMigrationAssistant.h"
+	#import "TPCPreferencesImportExport.h"
 	#import "TPCThemeController.h"
 	#import "TPCThemeSettings.h"
 

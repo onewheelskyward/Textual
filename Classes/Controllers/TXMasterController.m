@@ -294,17 +294,27 @@ __weak static TXMasterController *TXGlobalMasterControllerClassReference;
 
 - (void)applicationWillTerminate:(NSNotification *)note
 {
-	NSAppleEventManager *em = [NSAppleEventManager sharedAppleEventManager];
-	
-	[em removeEventHandlerForEventClass:KInternetEventClass andEventID:KAEGetURL];
+	[RZAppleEventManager() removeEventHandlerForEventClass:KInternetEventClass andEventID:KAEGetURL];
+
+	if (self.skipTerminateSave == NO) {
+		[self saveWindowState];
+	}
+
+	[self.mainWindow close];
+	self.mainWindow = nil;
 
 	if (self.skipTerminateSave == NO) {
 		[self.worldController save];
+
+		self.terminatingClientCount = self.worldController.clients.count;
+
 		[self.worldController terminate];
 		
+		while (self.terminatingClientCount > 0) {
+			[RZMainRunLoop() runUntilDate:[NSDate dateWithTimeIntervalSinceNow:0.1]];
+		}
+
 		[self.menuController terminate];
-		
-		[self saveWindowState];
 	}
 	
 	[TPCPreferences saveTimeIntervalSinceApplicationInstall];
@@ -801,10 +811,10 @@ typedef enum TXMoveKind : NSInteger {
 	
 	/* ************************************************************** */
 	/* Start: All Movement Actions.									  */
-	/* Design: Move to next item regardless of its type.			  */
+	/* Design: Move to next or previous item regardless of its type.  */
 	/* ************************************************************** */
 
-	if (dir == TXMoveAllKind && target == TXMoveDownKind)
+	if (dir == TXMoveAllKind)
 	{
 		NSInteger count = self.serverList.numberOfRows;
 
@@ -812,10 +822,18 @@ typedef enum TXMoveKind : NSInteger {
 
 		NSInteger n = [self.serverList rowForItem:selected];
 
-		n += 1;
+		if (target == TXMoveUpKind) {
+			n -= 1;
+		} else if (target == TXMoveDownKind) {
+			n += 1;
+		}
 
 		if (n >= count || n < 0) {
-			n = 0;
+			if (target == TXMoveUpKind && n < 0) {
+				n = (count - 1);
+			} else {
+				n = 0;
+			}
 		}
 
 		id i = [self.serverList itemAtRow:n];
@@ -888,6 +906,11 @@ typedef enum TXMoveKind : NSInteger {
 - (void)selectNextSelection:(NSEvent *)e
 {
 	[self move:TXMoveAllKind target:TXMoveDownKind];
+}
+
+- (void)selectPreviousWindow:(NSEvent *)e
+{
+	[self move:TXMoveAllKind target:TXMoveUpKind];
 }
 
 - (void)tab:(NSEvent *)e
