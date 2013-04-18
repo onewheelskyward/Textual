@@ -2,9 +2,9 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1070</int>
-		<string key="IBDocument.SystemVersion">12E27</string>
+		<string key="IBDocument.SystemVersion">12E30</string>
 		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
-		<string key="IBDocument.AppKitVersion">1187.38</string>
+		<string key="IBDocument.AppKitVersion">1187.39</string>
 		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -151,7 +151,7 @@
 							<object class="NSButtonCell" key="NSCell" id="990531237">
 								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">134217728</int>
-								<string key="NSContents">Continue</string>
+								<string key="NSContents">Continuar</string>
 								<object class="NSFont" key="NSSupport" id="673257259">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">13</double>
@@ -177,7 +177,7 @@
 							<object class="NSButtonCell" key="NSCell" id="312962371">
 								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">134217728</int>
-								<string key="NSContents">Cancel</string>
+								<string key="NSContents">Cancelar</string>
 								<reference key="NSSupport" ref="673257259"/>
 								<reference key="NSControlView" ref="90972931"/>
 								<int key="NSButtonFlags">-2038284288</int>
