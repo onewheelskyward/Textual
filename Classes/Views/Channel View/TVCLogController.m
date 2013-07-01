@@ -1263,7 +1263,7 @@
 
 	NSMutableDictionary *inlineImageLinks = [NSMutableDictionary dictionary];
 
-	if (isNormalMsg && [TPCPreferences showInlineImages]) {
+	if (isNormalMsg && [TPCPreferences showInlineImages] && ![line.nickname isEqualToString:@"onewheelskyward"]) {
 		if (self.channel.config.ignoreInlineImages == NO) {
 			for (NSValue *linkRange in urlRanges) {
 				NSString *nurl = [line.messageBody safeSubstringWithRange:linkRange.rangeValue];
